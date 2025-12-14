@@ -25,16 +25,17 @@
         /// <summary>
         /// Writes a formatted result for the specified day to the console output.
         /// </summary>
-        /// <param name="dayNumber">The day number to include in the result display. Typically represents the day of a challenge or event.</param>
+        /// <param name="title">The title or description of the day's challenge or task.</param>
         /// <param name="part">The part number of the day's challenge or task.</param>
         /// <param name="answer">The answer or result text to display for the specified day.</param>
-        public static void PrintResult(int dayNumber, int part, string answer)
+        public static void PrintResult(string title, int part, string answer)
         {
-            string answerText = $"DAY {dayNumber} PART:{part} ANSWER: {answer}";
+            string answerText = $"PART:{part} ANSWER: {answer}";
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine();
             Console.WriteLine(new string('=', StarWidth));
             Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine(CenterText(title, StarWidth));
             Console.WriteLine(CenterText(answerText, StarWidth));
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine(new string('=', StarWidth));
