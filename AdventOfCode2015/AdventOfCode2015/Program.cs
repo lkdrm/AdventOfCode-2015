@@ -9,8 +9,8 @@ PrettyPrintExtensions.PrintWelcome();
 #endregion
 
 #region Day 1
-PrettyPrintExtensions.PrintResult(1, 1, Day1.ResultPart1(ReadTaskExtensions.ReadText("Day1.txt", 1)));
-PrettyPrintExtensions.PrintResult(1, 2, Day1.ResultPart2(ReadTaskExtensions.ReadText("Day1.txt", 1)));
+PrettyPrintExtensions.PrintResult("Day 1: Not Quite Lisp", 1, Day1.ResultPart1(ReadTaskExtensions.ReadText("Day1.txt", 1)));
+PrettyPrintExtensions.PrintResult("Day 1: Not Quite Lisp", 2, Day1.ResultPart2(ReadTaskExtensions.ReadText("Day1.txt", 1)));
 #endregion
 
 Console.ReadLine();

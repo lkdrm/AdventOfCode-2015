@@ -11,7 +11,7 @@
     <None Update="Tasks\Day1\Day1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Tasks\Day1\FirtDay.txt">
+    <None Update="Tasks\Day1\Day 1 Not Quite Lisp.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
