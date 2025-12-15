@@ -7,7 +7,11 @@ namespace AdventOfCode2015.Tools
     /// </summary>
     public static class ReadTaskExtensions
     {
+        /// <summary>
+        /// Represents the format string used to construct folder paths for daily tasks.
+        /// </summary>
         private const string FolderDestionationFormat = "Tasks/Day{0}/";
+
         /// <summary>
         /// This method gets the current directory of the assembly.
         /// </summary>

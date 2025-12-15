@@ -6,7 +6,6 @@
     /// </summary>
     public static class PrettyPrintExtensions
     {
-        private const string Welcome = "Advent of Code of 2015 year!";
         private const int StarWidth = 60;
 
         /// <summary>
@@ -15,10 +14,19 @@
         public static void PrintWelcome()
         {
             Console.WriteLine();
-            Console.WriteLine(new string('*', StarWidth));
-            int padding = (StarWidth - Welcome.Length - 2) / 2;
-            Console.WriteLine("*" + new string(' ', padding) + $"{Welcome} " + new string(' ', padding - 1) + "*");
-            Console.WriteLine(new string('*', StarWidth));
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(CenterText("*    *    *", StarWidth));
+            Console.WriteLine(CenterText("  *    *", StarWidth));
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(CenterText("*** ADVENT OF CODE ***", StarWidth));
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine(CenterText("~ 2015 ~", StarWidth));
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine(CenterText("<< Ho Ho Ho! >>", StarWidth));
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(CenterText("  *    *", StarWidth));
+            Console.WriteLine(CenterText("*    *    *", StarWidth));
+            Console.ResetColor();
             Console.WriteLine();
         }
 
@@ -26,26 +34,35 @@
         /// Writes a formatted result for the specified day to the console output.
         /// </summary>
         /// <param name="title">The title or description of the day's challenge or task.</param>
-        /// <param name="part">The part number of the day's challenge or task.</param>
-        /// <param name="answer">The answer or result text to display for the specified day.</param>
-        public static void PrintResult(string title, int part, string answer)
+        /// <param name="dayNumber">The day number of the challenge or task.</param>
+        /// <param name="part1Answer">The answer or result for part 1 of the challenge.</param>
+        /// <param name="part2Answer">The answer or result for part 2 of the challenge.</param>
+        public static void PrintResult(string title, int dayNumber, string part1Answer, string part2Answer)
         {
-            string answerText = $"PART:{part} ANSWER: {answer}";
-            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine();
-            Console.WriteLine(new string('=', StarWidth));
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine(CenterText(title, StarWidth));
-            Console.WriteLine(CenterText(answerText, StarWidth));
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(new string('=', StarWidth));
+            Console.Write($"Day {dayNumber}: ");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine(title);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write("  Part 1: ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.Write(part1Answer);
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.Write(" | Part 2: ");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(part2Answer);
             Console.ResetColor();
             Console.WriteLine();
         }
 
         /// <summary>
-        /// Center text within a given width by adding spaces on both sides.
+        /// Centers the specified text within a field of a given width by adding padding spaces to both sides.
         /// </summary>
+        /// <param name="text">The text to center. If the length of the text exceeds the specified width, the text is truncated.</param>
+        /// <param name="width">The total width of the resulting string, including padding. Must be greater than or equal to zero.</param>
+        /// <returns>A new string containing the centered text padded with spaces to achieve the specified width. If the text is
+        /// longer than the width, a substring of the specified width is returned.</returns>
         private static string CenterText(string text, int width)
         {
             if (text.Length > width)

@@ -11,7 +11,7 @@ public static class Day1
     /// <param name="input">A string containing a sequence of characters, where '(' increases and ')' decreases the floor count. Other
     /// characters are ignored.</param>
     /// <returns>A string representation of the resulting floor number after processing the input sequence.</returns>
-    public static string ResultPart1(string input)
+    public static string SolvePart1(string input)
     {
         int floor = 0;
         foreach (char c in input)
@@ -34,7 +34,7 @@ public static class Day1
     /// <param name="input">A string containing a sequence of characters, where '(' increases and ')' decreases the floor count. Other
     /// characters are ignored.</param>
     /// <returns>A string representation of the resulting floor number after processing the input sequence.</returns>
-    public static string ResultPart2(string input)
+    public static string SolvePart2(string input)
     {
         int floor = 0;
         int position = 0;
