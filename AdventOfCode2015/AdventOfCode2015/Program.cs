@@ -26,6 +26,12 @@ string day3Part2 = Day3.SolvePart2(ReadTaskExtensions.ReadText("Day3.txt", 3));
 PrettyPrintExtensions.PrintResult("Perfectly Spherical Houses in a Vacuum", 3, day3Part1, day3Part2);
 #endregion
 
+#region Day 4: The Ideal Stocking Stuffer
+string day4Part1 = Day4.SolvePart1(ReadTaskExtensions.ReadText("Day4.txt", 4));
+string day4Part2 = Day4.SolvePart2(ReadTaskExtensions.ReadText("Day4.txt", 4));
+PrettyPrintExtensions.PrintResult("The Ideal Stocking Stuffer", 4, day4Part1, day4Part2);
+#endregion
+
 Console.ReadLine();
 #region End
 Console.CancelKeyPress += (sender, e) =>
