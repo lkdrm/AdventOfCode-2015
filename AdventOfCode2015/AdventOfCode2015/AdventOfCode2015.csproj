@@ -26,12 +26,19 @@
     <None Update="Tasks\Day3\Day3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Tasks\Day4\Day 4 The Ideal Stocking Stuffer.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day4\Day4.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Tasks\Day1\" />
     <Folder Include="Tasks\Day2\" />
     <Folder Include="Tasks\Day3\" />
+    <Folder Include="Tasks\Day4\" />
   </ItemGroup>
 
 </Project>
