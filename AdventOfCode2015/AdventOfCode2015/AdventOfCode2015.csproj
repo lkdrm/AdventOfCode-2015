@@ -8,22 +8,30 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="Tasks\Day1\Day 1 Not Quite Lisp.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Tasks\Day1\Day1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Tasks\Day1\Day 1 Not Quite Lisp.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="Tasks\Day2\Day 2 I Was Told There Would Be No Math.txt">
+    <None Update="Tasks\Day2\Day 2 I Was Told There Would Be No Math.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day2\Day2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Tasks\Day3\Day 3 Perfectly Spherical Houses in a Vacuum.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day3\Day3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Tasks\Day1\" />
     <Folder Include="Tasks\Day2\" />
+    <Folder Include="Tasks\Day3\" />
   </ItemGroup>
 
 </Project>
