@@ -38,6 +38,12 @@
     <None Update="Tasks\Day5\Day5.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Tasks\Day6\Day 6 Probably a Fire Hazard.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day6\Day6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
@@ -46,6 +52,7 @@
     <Folder Include="Tasks\Day3\" />
     <Folder Include="Tasks\Day4\" />
     <Folder Include="Tasks\Day5\" />
+    <Folder Include="Tasks\Day6\" />
   </ItemGroup>
 
 </Project>

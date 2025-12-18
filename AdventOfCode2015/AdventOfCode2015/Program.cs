@@ -47,6 +47,14 @@ string day5Part2 = Day5.SolvePart2(ReadTaskExtensions.ReadTextLines("Day5.txt", 
 double elapsedPart2Day5 = TimerExtension.StopAndGetSeconds();
 PrettyPrintExtensions.PrintResult("Doesn't He Have Intern-Elves For This?", 5, day5Part1, day5Part2, elapsedPart1Day5, elapsedPart2Day5);
 #endregion
+
+#region Day 6: Probably a Fire Hazard
+string day6Part1 = Day6.SolvePart1(ReadTaskExtensions.ReadTextLines("Day6.txt", 6));
+double elapsedPart1Day6 = TimerExtension.StopAndGetSeconds();
+string day6Part2 = Day6.SolvePart2(ReadTaskExtensions.ReadTextLines("Day6.txt", 6));
+double elapsedPart2Day6 = TimerExtension.StopAndGetSeconds();
+PrettyPrintExtensions.PrintResult("Probably a Fire Hazard", 6, day6Part1, day6Part2, elapsedPart1Day6, elapsedPart2Day6);
+#endregion
 Console.ReadLine();
 #region End
 Console.CancelKeyPress += (sender, e) =>
