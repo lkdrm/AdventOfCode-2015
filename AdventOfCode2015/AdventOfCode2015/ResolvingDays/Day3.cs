@@ -1,4 +1,6 @@
-﻿namespace AdventOfCode2015.ResolvingDays;
+﻿using AdventOfCode2015.Tools;
+
+namespace AdventOfCode2015.ResolvingDays;
 
 /// <summary>
 /// Provides solutions for Day 3 of the coding challenge.
@@ -28,6 +30,7 @@ public static class Day3
     /// <returns>A string representation of the total number of unique locations visited after processing the delivery route.</returns>
     public static string SolvePart1(string input)
     {
+        TimerExtension.Start();
         _currentSantaPosition = new Position(0, 0);
         _visitedHouses = new HashSet<Position> { _currentSantaPosition };
 
@@ -46,6 +49,7 @@ public static class Day3
     /// following all movement instructions.</returns>
     public static string SolvePart2(string input)
     {
+        TimerExtension.Start();
         _currentSantaPosition = new Position(0, 0);
         _currentSantaRoboPosition = new Position(0, 0);
         _visitedHouses = new HashSet<Position> { new Position(0, 0) };
