@@ -23,12 +23,12 @@ The main purpose of this repository is to perform all tasks.
 ```
 ## Holiday Message
 
-       **Happy Holidays!**
+         **Happy Holidays!**
     ***May your code be bug-free***
     ***And your Christmas be merry!***
     ****And your New Year bright!****
     ## Author
-    - [LkDrm] -
+            - [LkDrm] -
 
 ### Competed tasks:
-| Day 1 | Day 2 | Day 3 | Day 4 |
+| Day 1 | Day 2 | Day 3 | Day 4 | Day 5 |

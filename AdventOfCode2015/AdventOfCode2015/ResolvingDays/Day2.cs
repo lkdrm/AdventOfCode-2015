@@ -1,4 +1,6 @@
-﻿namespace AdventOfCode2015.ResolvingDays;
+﻿using AdventOfCode2015.Tools;
+
+namespace AdventOfCode2015.ResolvingDays;
 
 /// <summary>
 /// Provides solutions for Day 2 of the coding challenge.
@@ -13,6 +15,7 @@ public static class Day2
     /// <returns>A string representation of the total square feet of wrapping paper needed for all boxes in the input.</returns>
     public static string SolvePart1(string[] input)
     {
+        TimerExtension.Start();
         var result = 0;
         foreach (var line in input)
         {
@@ -34,6 +37,7 @@ public static class Day2
     /// <returns>A string representation of the total square feet of wrapping paper needed for all boxes in the input.</returns>
     public static string SolvePart2(string[] input)
     {
+        TimerExtension.Start();
         var result = 0;
         foreach (var line in input)
         {
