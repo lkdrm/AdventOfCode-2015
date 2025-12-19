@@ -6,7 +6,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 
 ## 📖 Available Visual Guides
 
-### 🏢 [Day 1: Not Quite Lisp](Day1/Day1_Visual_Guide.md)
+### 🏢 [Day 1: Not Quite Lisp](AdventOfCode2015/AdventOfCode2015/Tasks/Day1/Day1_Visual_Guide.md)
 **Problem:** Navigate floors using `(` and `)` characters
 - Understanding floor navigation with parentheses
 - Finding when Santa enters the basement
@@ -21,7 +21,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 
 ---
 
-### 📦 [Day 2: I Was Told There Would Be No Math](Day2/Day2_Visual_Guide.md)
+### 📦 [Day 2: I Was Told There Would Be No Math](AdventOfCode2015/AdventOfCode2015/Tasks/Day2/Day2_Visual_Guide.md)
 **Problem:** Calculate wrapping paper and ribbon for presents
 - Surface area calculations for rectangular boxes
 - Finding minimum face area (slack)
@@ -36,7 +36,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 
 ---
 
-### 🏠 [Day 3: Perfectly Spherical Houses in a Vacuum](Day3/Day3_Visual_Guide.md)
+### 🏠 [Day 3: Perfectly Spherical Houses in a Vacuum](AdventOfCode2015/AdventOfCode2015/Tasks/Day3/Day3_Visual_Guide.md)
 **Problem:** Track Santa's delivery route on an infinite grid
 - Coordinate system and direction mapping
 - Using HashSet for tracking unique positions
@@ -51,7 +51,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 
 ---
 
-### 🎁 [Day 4: The Ideal Stocking Stuffer](Day4/Day4_Visual_Guide.md)
+### 🎁 [Day 4: The Ideal Stocking Stuffer](AdventOfCode2015/AdventOfCode2015/Tasks/Day4/Day4_Visual_Guide.md)
 **Problem:** Mine AdventCoins by finding MD5 hashes with leading zeros
 - MD5 hash fundamentals
 - Brute force search algorithm
@@ -66,7 +66,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 
 ---
 
-### 🎄 [Day 5: Doesn't He Have Intern-Elves For This?](Day5/Day5_Visual_Guide.md)
+### 🎄 [Day 5: Doesn't He Have Intern-Elves For This?](AdventOfCode2015/AdventOfCode2015/Tasks/Day5/Day5_Visual_Guide.md)
 **Problem:** Determine if strings are "naughty" or "nice"
 - Multiple rule validation (Part 1 & Part 2)
 - Pattern matching and substring searching
@@ -81,7 +81,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 
 ---
 
-### 💡 [Day 6: Probably a Fire Hazard](Day6/Day6_Visual_Guide.md)
+### 💡 [Day 6: Probably a Fire Hazard](AdventOfCode2015/AdventOfCode2015/Tasks/Day6/Day6_Visual_Guide.md)
 **Problem:** Control a 1000×1000 grid of lights
 - 2D array manipulation
 - Rectangle operations with coordinates
