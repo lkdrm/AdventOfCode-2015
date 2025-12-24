@@ -55,6 +55,14 @@ string day6Part2 = Day6.SolvePart2(ReadTaskExtensions.ReadTextLines("Day6.txt", 
 double elapsedPart2Day6 = TimerExtension.StopAndGetSeconds();
 PrettyPrintExtensions.PrintResult("Probably a Fire Hazard", 6, day6Part1, day6Part2, elapsedPart1Day6, elapsedPart2Day6);
 #endregion
+
+#region Day 7: Some Assembly Required
+string day7Part1 = Day7.SolvePart1(ReadTaskExtensions.ReadTextLines("Day7.txt", 7));
+double elapsedPart1Day7 = TimerExtension.StopAndGetSeconds();
+string day7Part2 = Day7.SolvePart2(ReadTaskExtensions.ReadTextLines("Day7.txt", 7));
+double elapsedPart2Day7 = TimerExtension.StopAndGetSeconds();
+PrettyPrintExtensions.PrintResult("Some Assembly Required", 7, day7Part1, day7Part2, elapsedPart1Day7, elapsedPart2Day7);
+#endregion
 Console.ReadLine();
 #region End
 Console.CancelKeyPress += (sender, e) =>
