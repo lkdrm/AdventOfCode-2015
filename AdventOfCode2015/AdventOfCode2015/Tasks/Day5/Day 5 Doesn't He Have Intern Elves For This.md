@@ -10,7 +10,7 @@ A nice string is one with all of the following properties:
 
 ## For example:
 
-- `ugknbfddgicrmopn` is nice because it has at ***least three vowels*** `(u...i...o...)`, a ***double letter*** `(...dd...)`, and none of the ***disallowed substrings***.
+- `ugknbfddgicrmopn` is nice because it has at ***least three vowels*** (`u...i...o...`), a ***double letter*** (`...dd...`), and none of the ***disallowed substrings***.
 - `aaa` is nice because it has ***at least three vowels and a double letter***, even though the letters used by different rules overlap.
 - `jchzalrnumimnmhp` is naughty because ***it has no double letter***.
 - `haegwjzuvuyypxyu` is naughty because ***it contains the string xy***.

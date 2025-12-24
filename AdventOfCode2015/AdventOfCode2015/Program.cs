@@ -63,6 +63,15 @@ string day7Part2 = Day7.SolvePart2(ReadTaskExtensions.ReadTextLines("Day7.txt", 
 double elapsedPart2Day7 = TimerExtension.StopAndGetSeconds();
 PrettyPrintExtensions.PrintResult("Some Assembly Required", 7, day7Part1, day7Part2, elapsedPart1Day7, elapsedPart2Day7);
 #endregion
+
+#region Day 8: Matchsticks
+string day8Part1 = Day8.SolvePart1(ReadTaskExtensions.ReadTextLines("Day8.txt", 8));
+double elapsedPart1Day8 = TimerExtension.StopAndGetSeconds();
+string day8Part2 = Day8.SolvePart2(ReadTaskExtensions.ReadTextLines("Day8.txt", 8));
+double elapsedPart2Day8 = TimerExtension.StopAndGetSeconds();
+PrettyPrintExtensions.PrintResult("Day 8: Matchsticks", 8, day8Part1, day8Part2, elapsedPart1Day8, elapsedPart2Day8);
+#endregion
+
 Console.ReadLine();
 #region End
 Console.CancelKeyPress += (sender, e) =>

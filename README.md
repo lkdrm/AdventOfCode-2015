@@ -112,6 +112,22 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 
 ---
 
+### 📝 [Day 8: Matchsticks](AdventOfCode2015/AdventOfCode2015/Tasks/Day8/Day8_Visual_Guide.md)
+**Problem:** Calculate string length differences between code and memory
+- Understanding escape sequences (`\\`, `\"`, `\xNN`)
+- Code representation vs in-memory representation
+- Parsing string literals with escape characters
+- Hexadecimal escape sequences
+
+**Key Concepts:**
+- String parsing
+- Escape sequence handling
+- Character counting
+- ASCII and hexadecimal
+- Sequential character processing
+
+---
+
 ## 🎯 How to Use These Guides
 
 ### For Beginners
@@ -142,27 +158,28 @@ Each guide includes:
 ## 🗂️ Guide Organization by Topic
 
 ### Data Structures
-- **Arrays/Strings**: Days 1, 2, 5
+- **Arrays/Strings**: Days 1, 2, 5, 8
 - **2D Arrays**: Day 6
 - **HashSet**: Day 3
 - **Dictionary**: Day 7
 - **Coordinate Systems**: Day 3
 
 ### Algorithms
-- **Sequential Processing**: Days 1, 5
+- **Sequential Processing**: Days 1, 5, 8
 - **Grid Navigation**: Days 3, 6
 - **Brute Force Search**: Day 4
-- **Pattern Matching**: Day 5
+- **Pattern Matching**: Days 5, 8
 - **Range Operations**: Day 6
 - **Recursion with Memoization**: Day 7
 - **Dependency Resolution**: Day 7
 
 ### Problem Types
 - **Simulation**: Days 3, 6, 7
-- **Parsing**: Days 1, 2, 5, 6, 7
+- **Parsing**: Days 1, 2, 5, 6, 7, 8
 - **Validation**: Day 5
 - **Optimization**: Days 4, 7
 - **State Management**: Days 6, 7
+- **String Processing**: Days 5, 8
 
 ---
 
@@ -176,6 +193,7 @@ Each guide includes:
 - **Day 3**: Grid navigation with set tracking
 - **Day 5**: Multiple pattern matching rules
 - **Day 7**: Circuit simulation with recursion
+- **Day 8**: String escape sequence parsing
 
 ### Challenging (★★★)
 - **Day 4**: Computational search with hashing
@@ -187,7 +205,7 @@ Each guide includes:
 
 ### Path 1: Sequential Processing
 ```
-Day 1 (Basics) → Day 5 (Patterns) → Day 4 (Search)
+Day 1 (Basics) → Day 5 (Patterns) → Day 8 (Escape Sequences) → Day 4 (Search)
 ```
 Learn to process input character-by-character with increasing complexity.
 
@@ -208,6 +226,12 @@ Understand when and how to use different data structures.
 Day 4 (Brute Force) → Day 7 (Recursion + Memoization)
 ```
 Learn optimization techniques for complex problems.
+
+### Path 5: String Manipulation
+```
+Day 5 (Pattern Matching) → Day 8 (Escape Sequences)
+```
+Master string parsing and character-level operations.
 
 ---
 
@@ -269,6 +293,10 @@ AdventOfCode2015/
 │   │   ├── Day7_Visual_Guide.md
 │   │   ├── Day 7 Some Assembly Required.md
 │   │   └── Day7.txt
+│   ├── Day8/
+│   │   ├── Day8_Visual_Guide.md
+│   │   ├── Day 8 Matchsticks.md
+│   │   └── Day8.txt
 ├── ResolvingDays/
 │    ├── Day1.cs
 │    ├── Day2.cs
@@ -276,7 +304,8 @@ AdventOfCode2015/
 │    ├── Day4.cs
 │    ├── Day5.cs
 │    ├── Day6.cs
-│    └── Day7.cs
+│    ├── Day7.cs
+│    └── Day8.cs
 └── README.md (this file)
 ```
 
@@ -330,6 +359,11 @@ Each visual guide includes:
 
 ## 📜 Version History
 
+- **v1.2** - Added Day 8: Matchsticks
+  - String escape sequence parsing guide
+  - Code vs memory representation
+  - Hexadecimal escape sequences explained
+  - Character-by-character parsing walkthrough
 - **v1.1** - Added Day 7: Some Assembly Required
   - Bitwise circuit simulation guide
   - Recursion and memoization techniques
