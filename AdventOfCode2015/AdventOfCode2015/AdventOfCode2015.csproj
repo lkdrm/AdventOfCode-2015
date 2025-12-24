@@ -71,6 +71,15 @@
     <None Update="Tasks\Day7\Day7_Visual_Guide.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Tasks\Day8\Day 8 Matchsticks.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day8\Day8.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day8\Day8_Visual_Guide.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
@@ -80,6 +89,7 @@
     <Folder Include="Tasks\Day4\" />
     <Folder Include="Tasks\Day5\" />
     <Folder Include="Tasks\Day6\" />
+    <Folder Include="Tasks\Day8\" />
   </ItemGroup>
 
 </Project>
