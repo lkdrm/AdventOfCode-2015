@@ -14,10 +14,16 @@
     <None Update="Tasks\Day1\Day1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Tasks\Day1\Day1_Visual_Guide.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Tasks\Day2\Day 2 I Was Told There Would Be No Math.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day2\Day2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day2\Day2_Visual_Guide.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day3\Day 3 Perfectly Spherical Houses in a Vacuum.md">
@@ -26,10 +32,16 @@
     <None Update="Tasks\Day3\Day3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Tasks\Day3\Day3_Visual_Guide.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Tasks\Day4\Day 4 The Ideal Stocking Stuffer.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day4\Day4.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day4\Day4_Visual_Guide.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day5\Day 5 Doesn%27t He Have Intern Elves For This.md">
@@ -38,10 +50,25 @@
     <None Update="Tasks\Day5\Day5.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Tasks\Day5\Day5_Visual_Guide.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Tasks\Day6\Day 6 Probably a Fire Hazard.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day6\Day6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day6\Day6_Visual_Guide.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day7\Day 7 Some Assembly Required.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day7\Day7.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day7\Day7_Visual_Guide.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

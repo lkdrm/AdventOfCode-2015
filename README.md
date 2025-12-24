@@ -1,4 +1,4 @@
-﻿# 📚 Advent of Code 2015 - Visual Guides Collection
+# 📚 Advent of Code 2015 - Visual Guides Collection
 
 Welcome to the comprehensive visual guide collection for Advent of Code 2015! Each guide provides detailed, step-by-step visualizations to help you understand the problems and solutions.
 
@@ -96,6 +96,22 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 
 ---
 
+### 🔌 [Day 7: Some Assembly Required](AdventOfCode2015/AdventOfCode2015/Tasks/Day7/Day7_Visual_Guide.md)
+**Problem:** Simulate a circuit with bitwise logic gates
+- 16-bit signal processing
+- Bitwise operations (AND, OR, NOT, LSHIFT, RSHIFT)
+- Dependency resolution with recursion
+- Memoization for performance optimization
+
+**Key Concepts:**
+- Bitwise operations
+- Recursive computation
+- Memoization/caching
+- Dependency resolution
+- Circuit simulation
+
+---
+
 ## 🎯 How to Use These Guides
 
 ### For Beginners
@@ -129,21 +145,24 @@ Each guide includes:
 - **Arrays/Strings**: Days 1, 2, 5
 - **2D Arrays**: Day 6
 - **HashSet**: Day 3
+- **Dictionary**: Day 7
 - **Coordinate Systems**: Day 3
 
 ### Algorithms
 - **Sequential Processing**: Days 1, 5
-- **Grid Navigation**: Day 3, 6
+- **Grid Navigation**: Days 3, 6
 - **Brute Force Search**: Day 4
 - **Pattern Matching**: Day 5
 - **Range Operations**: Day 6
+- **Recursion with Memoization**: Day 7
+- **Dependency Resolution**: Day 7
 
 ### Problem Types
-- **Simulation**: Days 3, 6
-- **Parsing**: Days 1, 2, 5, 6
+- **Simulation**: Days 3, 6, 7
+- **Parsing**: Days 1, 2, 5, 6, 7
 - **Validation**: Day 5
-- **Optimization**: Day 4
-- **State Management**: Day 6
+- **Optimization**: Days 4, 7
+- **State Management**: Days 6, 7
 
 ---
 
@@ -156,6 +175,7 @@ Each guide includes:
 ### Medium (★★☆)
 - **Day 3**: Grid navigation with set tracking
 - **Day 5**: Multiple pattern matching rules
+- **Day 7**: Circuit simulation with recursion
 
 ### Challenging (★★★)
 - **Day 4**: Computational search with hashing
@@ -179,9 +199,15 @@ Master spatial reasoning and coordinate systems.
 
 ### Path 3: Data Structure Usage
 ```
-Day 1 (Variables) → Day 3 (HashSet) → Day 6 (2D Array)
+Day 1 (Variables) → Day 3 (HashSet) → Day 6 (2D Array) → Day 7 (Dictionary)
 ```
 Understand when and how to use different data structures.
+
+### Path 4: Advanced Algorithms
+```
+Day 4 (Brute Force) → Day 7 (Recursion + Memoization)
+```
+Learn optimization techniques for complex problems.
 
 ---
 
@@ -204,6 +230,9 @@ These guides use **C#** for code examples, but concepts apply to:
 - ✓ Hash functions
 - ✓ Record types
 - ✓ LINQ (C# specific)
+- ✓ Recursion
+- ✓ Memoization
+- ✓ Bitwise operations
 
 ---
 
@@ -234,18 +263,21 @@ AdventOfCode2015/
 │   │   └── Day5.txt
 │   ├── Day6/
 │   │   ├── Day6_Visual_Guide.md
-│   │   ├── Day6_QuickReference.md
-│   │   ├── Day6_Solution_Explanation.md
 │   │   ├── Day 6 Probably a Fire Hazard.md
 │   │   └── Day6.txt
-│   └── README.md (this file)
-└── ResolvingDays/
-    ├── Day1.cs
-    ├── Day2.cs
-    ├── Day3.cs
-    ├── Day4.cs
-    ├── Day5.cs
-    └── Day6.cs
+│   ├── Day7/
+│   │   ├── Day7_Visual_Guide.md
+│   │   ├── Day 7 Some Assembly Required.md
+│   │   └── Day7.txt
+├── ResolvingDays/
+│    ├── Day1.cs
+│    ├── Day2.cs
+│    ├── Day3.cs
+│    ├── Day4.cs
+│    ├── Day5.cs
+│    ├── Day6.cs
+│    └── Day7.cs
+└── README.md (this file)
 ```
 
 ---
@@ -298,10 +330,14 @@ Each visual guide includes:
 
 ## 📜 Version History
 
+- **v1.1** - Added Day 7: Some Assembly Required
+  - Bitwise circuit simulation guide
+  - Recursion and memoization techniques
+  - Comprehensive dependency resolution examples
 - **v1.0** - Initial release with Days 1-6 visual guides
-- Comprehensive examples and visualizations
-- Cross-referenced with actual solutions
-- Tested against real puzzle inputs
+  - Comprehensive examples and visualizations
+  - Cross-referenced with actual solutions
+  - Tested against real puzzle inputs
 
 ---
 
@@ -314,4 +350,4 @@ These visual guides were created to help developers of all skill levels:
 
 Happy coding and enjoy Advent of Code! 🎄✨
 
-**Start with Day 1 and work your way through! Each guide builds on previous concepts.** 🚀
+🚀**Start with Day 1 and work your way through! Each guide builds on previous concepts.** 🚀

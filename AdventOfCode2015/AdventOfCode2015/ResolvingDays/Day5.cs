@@ -10,12 +10,12 @@ public static class Day5
     /// <summary>
     /// Contains substrings that are not allowed in the input for validation purposes.
     /// </summary>
-    private static readonly List<string> NotAllowedSubStrings = ["ab", "cd", "pq", "xy"];
+    private static readonly List<string> _notAllowedSubStrings = ["ab", "cd", "pq", "xy"];
 
     /// <summary>
     /// Represents the list of vowel substrings used for internal processing.
     /// </summary>
-    private static readonly List<string> VowelsSubStrings = ["a", "e", "i", "o", "u"];
+    private static readonly List<string> _vowelsSubStrings = ["a", "e", "i", "o", "u"];
 
     /// <summary>
     /// Analyzes the input lines and counts how many meet the specified criteria for being considered 'nice' according
@@ -30,12 +30,12 @@ public static class Day5
         foreach (var line in input)
         {
             // Check for not allowed substrings
-            if (NotAllowedSubStrings.Any(sub => line.Contains(sub, StringComparison.Ordinal)))
+            if (_notAllowedSubStrings.Any(sub => line.Contains(sub, StringComparison.Ordinal)))
             {
                 continue;
             }
             
-            int vowelCount = VowelsSubStrings.Sum(vowel => line.Count(c => c.ToString() == vowel));
+            int vowelCount = _vowelsSubStrings.Sum(vowel => line.Count(c => c.ToString() == vowel));
             // Check for at least 3 vowels
             if (vowelCount < 3)
             {
