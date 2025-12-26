@@ -128,6 +128,22 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 
 ---
 
+### 🗺️ [Day 9: All in a Single Night](AdventOfCode2015/AdventOfCode2015/Tasks/Day9/Day9_Visual_Guide.md)
+**Problem:** Find shortest/longest route visiting all locations (Traveling Salesman Problem)
+- Understanding the classic TSP problem
+- Generating permutations with backtracking
+- Distance calculations for routes
+- Brute force approach for small inputs
+
+**Key Concepts:**
+- Permutations and factorials
+- Recursive backtracking
+- Graph distance calculations
+- NP-hard problem solving
+- Symmetry in routes
+
+---
+
 ## 🎯 How to Use These Guides
 
 ### For Beginners
@@ -160,26 +176,29 @@ Each guide includes:
 ### Data Structures
 - **Arrays/Strings**: Days 1, 2, 5, 8
 - **2D Arrays**: Day 6
-- **HashSet**: Day 3
-- **Dictionary**: Day 7
+- **HashSet**: Days 3, 9
+- **Dictionary**: Days 7, 9
 - **Coordinate Systems**: Day 3
 
 ### Algorithms
 - **Sequential Processing**: Days 1, 5, 8
 - **Grid Navigation**: Days 3, 6
-- **Brute Force Search**: Day 4
+- **Brute Force Search**: Days 4, 9
 - **Pattern Matching**: Days 5, 8
 - **Range Operations**: Day 6
 - **Recursion with Memoization**: Day 7
 - **Dependency Resolution**: Day 7
+- **Backtracking**: Day 9
+- **Permutation Generation**: Day 9
 
 ### Problem Types
 - **Simulation**: Days 3, 6, 7
-- **Parsing**: Days 1, 2, 5, 6, 7, 8
+- **Parsing**: Days 1, 2, 5, 6, 7, 8, 9
 - **Validation**: Day 5
-- **Optimization**: Days 4, 7
+- **Optimization**: Days 4, 7, 9
 - **State Management**: Days 6, 7
 - **String Processing**: Days 5, 8
+- **Graph Problems**: Day 9
 
 ---
 
@@ -194,6 +213,7 @@ Each guide includes:
 - **Day 5**: Multiple pattern matching rules
 - **Day 7**: Circuit simulation with recursion
 - **Day 8**: String escape sequence parsing
+- **Day 9**: Permutation generation and TSP
 
 ### Challenging (★★★)
 - **Day 4**: Computational search with hashing
@@ -217,13 +237,13 @@ Master spatial reasoning and coordinate systems.
 
 ### Path 3: Data Structure Usage
 ```
-Day 1 (Variables) → Day 3 (HashSet) → Day 6 (2D Array) → Day 7 (Dictionary)
+Day 1 (Variables) → Day 3 (HashSet) → Day 6 (2D Array) → Day 7 (Dictionary) → Day 9 (Complex Maps)
 ```
 Understand when and how to use different data structures.
 
 ### Path 4: Advanced Algorithms
 ```
-Day 4 (Brute Force) → Day 7 (Recursion + Memoization)
+Day 4 (Brute Force) → Day 7 (Recursion + Memoization) → Day 9 (Backtracking)
 ```
 Learn optimization techniques for complex problems.
 
@@ -232,6 +252,12 @@ Learn optimization techniques for complex problems.
 Day 5 (Pattern Matching) → Day 8 (Escape Sequences)
 ```
 Master string parsing and character-level operations.
+
+### Path 6: Classic Problems
+```
+Day 7 (Circuit Simulation) → Day 9 (Traveling Salesman)
+```
+Explore famous computer science problems.
 
 ---
 
@@ -257,6 +283,8 @@ These guides use **C#** for code examples, but concepts apply to:
 - ✓ Recursion
 - ✓ Memoization
 - ✓ Bitwise operations
+- ✓ Backtracking
+- ✓ Permutations
 
 ---
 
@@ -297,6 +325,10 @@ AdventOfCode2015/
 │   │   ├── Day8_Visual_Guide.md
 │   │   ├── Day 8 Matchsticks.md
 │   │   └── Day8.txt
+│   ├── Day9/
+│   │   ├── Day9_Visual_Guide.md
+│   │   ├── Day 9 All in a Single Night.md
+│   │   └── Day9.txt
 ├── ResolvingDays/
 │    ├── Day1.cs
 │    ├── Day2.cs
@@ -305,7 +337,8 @@ AdventOfCode2015/
 │    ├── Day5.cs
 │    ├── Day6.cs
 │    ├── Day7.cs
-│    └── Day8.cs
+│    ├── Day8.cs
+│    └── Day9.cs
 └── README.md (this file)
 ```
 
@@ -320,6 +353,7 @@ AdventOfCode2015/
 4. **Tables** - For comparing values
 5. **Step Traces** - For execution walkthrough
 6. **Annotated Code** - For implementation details
+7. **Tree Diagrams** - For recursive structures
 
 ### Color Coding (in text)
 - ✓ **Success/Pass** - Green checkmark
@@ -359,6 +393,12 @@ Each visual guide includes:
 
 ## 📜 Version History
 
+- **v1.3** - Added Day 9: All in a Single Night
+  - Traveling Salesman Problem explained
+  - Permutation generation with backtracking
+  - Distance calculation for routes
+  - Complexity analysis for NP-hard problems
+  - Symmetric route optimization insights
 - **v1.2** - Added Day 8: Matchsticks
   - String escape sequence parsing guide
   - Code vs memory representation
