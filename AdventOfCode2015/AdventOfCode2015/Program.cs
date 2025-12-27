@@ -18,7 +18,8 @@ var days = new (int Day, string Title, string FileName, bool UseLines, Func<stri
     (6, "Probably a Fire Hazard", "Day6.txt", true, Day6.SolvePart1, Day6.SolvePart2),
     (7, "Some Assembly Required", "Day7.txt", true, Day7.SolvePart1, Day7.SolvePart2),
     (8, "Matchsticks", "Day8.txt", true, Day8.SolvePart1, Day8.SolvePart2),
-    (9, "All in a Single Night", "Day9.txt", true, Day9.SolvePart1, Day9.SolvePart2)
+    (9, "All in a Single Night", "Day9.txt", true, Day9.SolvePart1, Day9.SolvePart2),
+    (10, "Elves Look, Elves Say", "Day10.txt", false, input => Day10.SolvePart1(input[0]), input => Day10.SolvePart2(input[0]))
 };
 
 for (int i = 0; i < days.Length; i++)
