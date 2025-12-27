@@ -19,7 +19,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Early exit patterns
 - 1-based position indexing
 
-**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day1_Step_by_Step_Solution.md)**
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day1_Step_by_Step_Solution.md)**
 
 ---
 
@@ -36,7 +36,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Array sorting
 - Multiple dimensional analysis
 
-**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day2_Step_by_Step_Solution.md)**
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day2_Step_by_Step_Solution.md)**
 
 ---
 
@@ -53,7 +53,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Position tracking
 - Turn alternation logic
 
-**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day3_Step_by_Step_Solution.md)**
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day3_Step_by_Step_Solution.md)**
 
 ---
 
@@ -70,7 +70,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - String manipulation
 - Computational complexity
 
-**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day4_Step_by_Step_Solution.md)**
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day4_Step_by_Step_Solution.md)**
 
 ---
 
@@ -87,7 +87,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Overlapping vs non-overlapping patterns
 - Boolean logic
 
-**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day5_Step_by_Step_Solution.md)**
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day5_Step_by_Step_Solution.md)**
 
 ---
 
@@ -104,7 +104,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Range operations
 - State mutations
 
-**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day6_Step_by_Step_Solution.md)**
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day6_Step_by_Step_Solution.md)**
 
 ---
 
@@ -122,7 +122,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Dependency resolution
 - Circuit simulation
 
-**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day7_Step_by_Step_Solution.md)**
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day7_Step_by_Step_Solution.md)**
 
 ---
 
@@ -140,7 +140,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - ASCII and hexadecimal
 - Sequential character processing
 
-**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day8_Step_by_Step_Solution.md)**
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day8_Step_by_Step_Solution.md)**
 
 ---
 
@@ -158,7 +158,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - NP-hard problem solving
 - Symmetry in routes
 
-**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day9_Step_by_Step_Solution.md)**
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day9_Step_by_Step_Solution.md)**
 
 ---
 
@@ -176,7 +176,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - StringBuilder optimization
 - Exponential growth patterns
 
-**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day10_Step_by_Step_Solution.md)**
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day10_Step_by_Step_Solution.md)**
 
 ---
 
@@ -194,7 +194,7 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Character sequences
 - Optimization strategies
 
-**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day11_Step_by_Step_Solution.md)**
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day11_Step_by_Step_Solution.md)**
 
 ---
 
