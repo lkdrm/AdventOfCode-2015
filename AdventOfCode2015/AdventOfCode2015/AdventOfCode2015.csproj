@@ -8,6 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="Tasks\Day10\Day 10 Elves Look Elves Say.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day10\Day10.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day10\Day10_Visual_Guide.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Tasks\Day1\Day 1 Not Quite Lisp.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -99,6 +108,7 @@
     <Folder Include="Tasks\Day5\" />
     <Folder Include="Tasks\Day6\" />
     <Folder Include="Tasks\Day8\" />
+    <Folder Include="Tasks\Day10\" />
   </ItemGroup>
 
 </Project>

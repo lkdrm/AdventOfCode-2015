@@ -144,6 +144,22 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 
 ---
 
+### 🔢 [Day 10: Elves Look, Elves Say](AdventOfCode2015/AdventOfCode2015/Tasks/Day10/Day10_Visual_Guide.md)
+**Problem:** Generate look-and-say sequences
+- Understanding the look-and-say sequence pattern
+- Consecutive digit grouping and counting
+- String transformation and growth patterns
+- Conway's Constant and exponential growth
+
+**Key Concepts:**
+- String sequence generation
+- Run-length encoding
+- Consecutive element grouping
+- StringBuilder optimization
+- Exponential growth patterns
+
+---
+
 ## 🎯 How to Use These Guides
 
 ### For Beginners
@@ -174,31 +190,34 @@ Each guide includes:
 ## 🗂️ Guide Organization by Topic
 
 ### Data Structures
-- **Arrays/Strings**: Days 1, 2, 5, 8
+- **Arrays/Strings**: Days 1, 2, 5, 8, 10
 - **2D Arrays**: Day 6
 - **HashSet**: Days 3, 9
 - **Dictionary**: Days 7, 9
 - **Coordinate Systems**: Day 3
+- **StringBuilder**: Day 10
 
 ### Algorithms
-- **Sequential Processing**: Days 1, 5, 8
+- **Sequential Processing**: Days 1, 5, 8, 10
 - **Grid Navigation**: Days 3, 6
 - **Brute Force Search**: Days 4, 9
-- **Pattern Matching**: Days 5, 8
+- **Pattern Matching**: Days 5, 8, 10
 - **Range Operations**: Day 6
 - **Recursion with Memoization**: Day 7
 - **Dependency Resolution**: Day 7
 - **Backtracking**: Day 9
 - **Permutation Generation**: Day 9
+- **Run-Length Encoding**: Day 10
 
 ### Problem Types
 - **Simulation**: Days 3, 6, 7
-- **Parsing**: Days 1, 2, 5, 6, 7, 8, 9
+- **Parsing**: Days 1, 2, 5, 6, 7, 8, 9, 10
 - **Validation**: Day 5
 - **Optimization**: Days 4, 7, 9
 - **State Management**: Days 6, 7
-- **String Processing**: Days 5, 8
+- **String Processing**: Days 5, 8, 10
 - **Graph Problems**: Day 9
+- **Sequence Generation**: Day 10
 
 ---
 
@@ -214,6 +233,7 @@ Each guide includes:
 - **Day 7**: Circuit simulation with recursion
 - **Day 8**: String escape sequence parsing
 - **Day 9**: Permutation generation and TSP
+- **Day 10**: Look-and-say sequence generation
 
 ### Challenging (★★★)
 - **Day 4**: Computational search with hashing
@@ -225,7 +245,7 @@ Each guide includes:
 
 ### Path 1: Sequential Processing
 ```
-Day 1 (Basics) → Day 5 (Patterns) → Day 8 (Escape Sequences) → Day 4 (Search)
+Day 1 (Basics) → Day 5 (Patterns) → Day 8 (Escape Sequences) → Day 10 (Sequences) → Day 4 (Search)
 ```
 Learn to process input character-by-character with increasing complexity.
 
@@ -237,7 +257,7 @@ Master spatial reasoning and coordinate systems.
 
 ### Path 3: Data Structure Usage
 ```
-Day 1 (Variables) → Day 3 (HashSet) → Day 6 (2D Array) → Day 7 (Dictionary) → Day 9 (Complex Maps)
+Day 1 (Variables) → Day 3 (HashSet) → Day 6 (2D Array) → Day 7 (Dictionary) → Day 9 (Complex Maps) → Day 10 (StringBuilder)
 ```
 Understand when and how to use different data structures.
 
@@ -249,13 +269,13 @@ Learn optimization techniques for complex problems.
 
 ### Path 5: String Manipulation
 ```
-Day 5 (Pattern Matching) → Day 8 (Escape Sequences)
+Day 5 (Pattern Matching) → Day 8 (Escape Sequences) → Day 10 (Sequence Generation)
 ```
 Master string parsing and character-level operations.
 
 ### Path 6: Classic Problems
 ```
-Day 7 (Circuit Simulation) → Day 9 (Traveling Salesman)
+Day 7 (Circuit Simulation) → Day 9 (Traveling Salesman) → Day 10 (Look-and-Say)
 ```
 Explore famous computer science problems.
 
@@ -285,6 +305,7 @@ These guides use **C#** for code examples, but concepts apply to:
 - ✓ Bitwise operations
 - ✓ Backtracking
 - ✓ Permutations
+- ✓ StringBuilder optimization
 
 ---
 
@@ -329,6 +350,10 @@ AdventOfCode2015/
 │   │   ├── Day9_Visual_Guide.md
 │   │   ├── Day 9 All in a Single Night.md
 │   │   └── Day9.txt
+│   ├── Day10/
+│   │   ├── Day10_Visual_Guide.md
+│   │   ├── Day 10 Elves Look Elves Say.md
+│   │   └── Day10.txt
 ├── ResolvingDays/
 │    ├── Day1.cs
 │    ├── Day2.cs
@@ -338,7 +363,8 @@ AdventOfCode2015/
 │    ├── Day6.cs
 │    ├── Day7.cs
 │    ├── Day8.cs
-│    └── Day9.cs
+│    ├── Day9.cs
+│    └── Day10.cs
 └── README.md (this file)
 ```
 
@@ -354,6 +380,7 @@ AdventOfCode2015/
 5. **Step Traces** - For execution walkthrough
 6. **Annotated Code** - For implementation details
 7. **Tree Diagrams** - For recursive structures
+8. **Sequence Evolution** - For pattern progression
 
 ### Color Coding (in text)
 - ✓ **Success/Pass** - Green checkmark
@@ -393,6 +420,12 @@ Each visual guide includes:
 
 ## 📜 Version History
 
+- **v1.4** - Added Day 10: Elves Look, Elves Say
+  - Look-and-say sequence explained
+  - Consecutive grouping and run-length encoding
+  - Conway's Constant and growth analysis
+  - StringBuilder optimization techniques
+  - Comprehensive edge cases and pattern analysis
 - **v1.3** - Added Day 9: All in a Single Night
   - Traveling Salesman Problem explained
   - Permutation generation with backtracking
