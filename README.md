@@ -19,6 +19,8 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Early exit patterns
 - 1-based position indexing
 
+**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day1_Step_by_Step_Solution.md)**
+
 ---
 
 ### 📦 [Day 2: I Was Told There Would Be No Math](AdventOfCode2015/AdventOfCode2015/Tasks/Day2/Day2_Visual_Guide.md)
@@ -33,6 +35,8 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Min/max operations
 - Array sorting
 - Multiple dimensional analysis
+
+**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day2_Step_by_Step_Solution.md)**
 
 ---
 
@@ -49,6 +53,8 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Position tracking
 - Turn alternation logic
 
+**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day3_Step_by_Step_Solution.md)**
+
 ---
 
 ### 🎁 [Day 4: The Ideal Stocking Stuffer](AdventOfCode2015/AdventOfCode2015/Tasks/Day4/Day4_Visual_Guide.md)
@@ -63,6 +69,8 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Brute force algorithms
 - String manipulation
 - Computational complexity
+
+**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day4_Step_by_Step_Solution.md)**
 
 ---
 
@@ -79,6 +87,8 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Overlapping vs non-overlapping patterns
 - Boolean logic
 
+**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day5_Step_by_Step_Solution.md)**
+
 ---
 
 ### 💡 [Day 6: Probably a Fire Hazard](AdventOfCode2015/AdventOfCode2015/Tasks/Day6/Day6_Visual_Guide.md)
@@ -93,6 +103,8 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Nested loops
 - Range operations
 - State mutations
+
+**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day6_Step_by_Step_Solution.md)**
 
 ---
 
@@ -110,6 +122,8 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Dependency resolution
 - Circuit simulation
 
+**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day7_Step_by_Step_Solution.md)**
+
 ---
 
 ### 📝 [Day 8: Matchsticks](AdventOfCode2015/AdventOfCode2015/Tasks/Day8/Day8_Visual_Guide.md)
@@ -125,6 +139,8 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - Character counting
 - ASCII and hexadecimal
 - Sequential character processing
+
+**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day8_Step_by_Step_Solution.md)**
 
 ---
 
@@ -142,6 +158,8 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - NP-hard problem solving
 - Symmetry in routes
 
+**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day9_Step_by_Step_Solution.md)**
+
 ---
 
 ### 🔢 [Day 10: Elves Look, Elves Say](AdventOfCode2015/AdventOfCode2015/Tasks/Day10/Day10_Visual_Guide.md)
@@ -158,6 +176,26 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 - StringBuilder optimization
 - Exponential growth patterns
 
+**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day10_Step_by_Step_Solution.md)**
+
+---
+
+### 🔐 [Day 11: Corporate Policy](AdventOfCode2015/AdventOfCode2015/Tasks/Day11/Day11_Visual_Guide.md)
+**Problem:** Find valid passwords using incrementing and validation rules
+- Password incrementing (base-26 counting)
+- Multiple validation rules
+- Pattern detection (straight, pairs, forbidden letters)
+- Optimization techniques
+
+**Key Concepts:**
+- Base-26 number system
+- String validation
+- Pattern matching
+- Character sequences
+- Optimization strategies
+
+**📝 [Step by Step Solution Guide](AdventOfCode2015/Step_by_step/Day11_Step_by_Step_Solution.md)**
+
 ---
 
 ## 🎯 How to Use These Guides
@@ -168,12 +206,14 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 3. **Follow the step-by-step traces** to understand the logic
 4. **Review common mistakes** to avoid pitfalls
 5. **Try implementing** your own solution
+6. **Check the Step by Step guide** for detailed implementation walkthrough
 
 ### For Experienced Developers
 1. **Quick reference tables** for formula lookups
 2. **Complexity analysis** for optimization insights
 3. **Edge case examples** for thorough testing
 4. **Implementation tips** for clean code
+5. **Step by Step guide** for detailed code breakdown
 
 ### Visual Guide Structure
 Each guide includes:
@@ -185,12 +225,22 @@ Each guide includes:
 - 📈 **Complexity Analysis** - Performance considerations
 - 📝 **Summary** - Key takeaways and memory aids
 
+### Step by Step Guide Structure
+Each step-by-step guide includes:
+- 🎯 **Problem Understanding** - Breaking down requirements
+- 🔧 **Implementation Steps** - Build the solution incrementally
+- 📝 **Detailed Code** - Complete working implementation
+- 🧪 **Test Examples** - Trace through with sample inputs
+- ⚠️ **Common Mistakes** - Pitfalls to avoid
+- 📊 **Complexity Analysis** - Performance breakdown
+- ✅ **Summary** - Quick reference
+
 ---
 
 ## 🗂️ Guide Organization by Topic
 
 ### Data Structures
-- **Arrays/Strings**: Days 1, 2, 5, 8, 10
+- **Arrays/Strings**: Days 1, 2, 5, 8, 10, 11
 - **2D Arrays**: Day 6
 - **HashSet**: Days 3, 9
 - **Dictionary**: Days 7, 9
@@ -198,26 +248,27 @@ Each guide includes:
 - **StringBuilder**: Day 10
 
 ### Algorithms
-- **Sequential Processing**: Days 1, 5, 8, 10
+- **Sequential Processing**: Days 1, 5, 8, 10, 11
 - **Grid Navigation**: Days 3, 6
-- **Brute Force Search**: Days 4, 9
-- **Pattern Matching**: Days 5, 8, 10
+- **Brute Force Search**: Days 4, 9, 11
+- **Pattern Matching**: Days 5, 8, 10, 11
 - **Range Operations**: Day 6
 - **Recursion with Memoization**: Day 7
 - **Dependency Resolution**: Day 7
 - **Backtracking**: Day 9
 - **Permutation Generation**: Day 9
 - **Run-Length Encoding**: Day 10
+- **Base-N Counting**: Day 11
 
 ### Problem Types
 - **Simulation**: Days 3, 6, 7
-- **Parsing**: Days 1, 2, 5, 6, 7, 8, 9, 10
-- **Validation**: Day 5
-- **Optimization**: Days 4, 7, 9
+- **Parsing**: Days 1, 2, 5, 6, 7, 8, 9, 10, 11
+- **Validation**: Days 5, 11
+- **Optimization**: Days 4, 7, 9, 11
 - **State Management**: Days 6, 7
-- **String Processing**: Days 5, 8, 10
+- **String Processing**: Days 5, 8, 10, 11
 - **Graph Problems**: Day 9
-- **Sequence Generation**: Day 10
+- **Sequence Generation**: Days 10, 11
 
 ---
 
@@ -234,6 +285,7 @@ Each guide includes:
 - **Day 8**: String escape sequence parsing
 - **Day 9**: Permutation generation and TSP
 - **Day 10**: Look-and-say sequence generation
+- **Day 11**: Password validation with multiple rules
 
 ### Challenging (★★★)
 - **Day 4**: Computational search with hashing
@@ -245,7 +297,7 @@ Each guide includes:
 
 ### Path 1: Sequential Processing
 ```
-Day 1 (Basics) → Day 5 (Patterns) → Day 8 (Escape Sequences) → Day 10 (Sequences) → Day 4 (Search)
+Day 1 (Basics) → Day 5 (Patterns) → Day 8 (Escape Sequences) → Day 10 (Sequences) → Day 11 (Validation) → Day 4 (Search)
 ```
 Learn to process input character-by-character with increasing complexity.
 
@@ -263,19 +315,19 @@ Understand when and how to use different data structures.
 
 ### Path 4: Advanced Algorithms
 ```
-Day 4 (Brute Force) → Day 7 (Recursion + Memoization) → Day 9 (Backtracking)
+Day 4 (Brute Force) → Day 7 (Recursion + Memoization) → Day 9 (Backtracking) → Day 11 (Optimization)
 ```
 Learn optimization techniques for complex problems.
 
 ### Path 5: String Manipulation
 ```
-Day 5 (Pattern Matching) → Day 8 (Escape Sequences) → Day 10 (Sequence Generation)
+Day 5 (Pattern Matching) → Day 8 (Escape Sequences) → Day 10 (Sequence Generation) → Day 11 (Validation)
 ```
 Master string parsing and character-level operations.
 
 ### Path 6: Classic Problems
 ```
-Day 7 (Circuit Simulation) → Day 9 (Traveling Salesman) → Day 10 (Look-and-Say)
+Day 7 (Circuit Simulation) → Day 9 (Traveling Salesman) → Day 10 (Look-and-Say) → Day 11 (Password Generation)
 ```
 Explore famous computer science problems.
 
@@ -354,6 +406,22 @@ AdventOfCode2015/
 │   │   ├── Day10_Visual_Guide.md
 │   │   ├── Day 10 Elves Look Elves Say.md
 │   │   └── Day10.txt
+│   └── Day11/
+│       ├── Day11_Visual_Guide.md
+│       ├── Day 11 Corporate Policy.md
+│       └── Day11.txt
+├── Step_by_step/
+│   ├── Day1_Step_by_Step_Solution.md
+│   ├── Day2_Step_by_Step_Solution.md
+│   ├── Day3_Step_by_Step_Solution.md
+│   ├── Day4_Step_by_Step_Solution.md
+│   ├── Day5_Step_by_Step_Solution.md
+│   ├── Day6_Step_by_Step_Solution.md
+│   ├── Day7_Step_by_Step_Solution.md
+│   ├── Day8_Step_by_Step_Solution.md
+│   ├── Day9_Step_by_Step_Solution.md
+│   ├── Day10_Step_by_Step_Solution.md
+│   └── Day11_Step_by_Step_Solution.md
 ├── ResolvingDays/
 │    ├── Day1.cs
 │    ├── Day2.cs
@@ -364,7 +432,8 @@ AdventOfCode2015/
 │    ├── Day7.cs
 │    ├── Day8.cs
 │    ├── Day9.cs
-│    └── Day10.cs
+│    ├── Day10.cs
+│    └── Day11.cs
 └── README.md (this file)
 ```
 
@@ -420,27 +489,50 @@ Each visual guide includes:
 
 ## 📜 Version History
 
+- **v2.0** - Major Update: Complete Step by Step Solution Guides
+  - Created comprehensive Step by Step guides for all 11 days
+  - Centralized all Step by Step guides in `Step_by_step/` folder
+  - Each guide includes:
+    - Detailed problem breakdown
+    - Incremental implementation steps
+    - Complete working C# code
+    - Trace examples with sample inputs
+    - Common mistakes and pitfalls
+    - Complexity analysis
+    - Quick reference summary
+  - Added Day 11: Corporate Policy
+    - Password incrementing (base-26 counting)
+    - Multiple validation rules
+    - Pattern detection algorithms
+    - Optimization techniques
+  - Enhanced file structure documentation
+  - Updated all navigation links
+
 - **v1.4** - Added Day 10: Elves Look, Elves Say
   - Look-and-say sequence explained
   - Consecutive grouping and run-length encoding
   - Conway's Constant and growth analysis
   - StringBuilder optimization techniques
   - Comprehensive edge cases and pattern analysis
+
 - **v1.3** - Added Day 9: All in a Single Night
   - Traveling Salesman Problem explained
   - Permutation generation with backtracking
   - Distance calculation for routes
   - Complexity analysis for NP-hard problems
   - Symmetric route optimization insights
+
 - **v1.2** - Added Day 8: Matchsticks
   - String escape sequence parsing guide
   - Code vs memory representation
   - Hexadecimal escape sequences explained
   - Character-by-character parsing walkthrough
+
 - **v1.1** - Added Day 7: Some Assembly Required
   - Bitwise circuit simulation guide
   - Recursion and memoization techniques
   - Comprehensive dependency resolution examples
+
 - **v1.0** - Initial release with Days 1-6 visual guides
   - Comprehensive examples and visualizations
   - Cross-referenced with actual solutions
