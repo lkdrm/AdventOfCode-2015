@@ -19,7 +19,6 @@ public static class Day10
     /// <returns>A string representation of the length of the final sequence after processing.</returns>
     public static string SolvePart1(string input)
     {
-        TimerExtension.Start();
         string result = GenerateLookAndSay(input, DefaultIterationsPart1);
         return result.Length.ToString();
     }
@@ -33,7 +32,6 @@ public static class Day10
     /// required number of iterations.</returns>
     public static string SolvePart2(string input)
     {
-        TimerExtension.Start();
         string result = GenerateLookAndSay(input, DefaultIterationsPart2);
         return result.Length.ToString();
     }

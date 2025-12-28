@@ -54,7 +54,6 @@ public class Day6
     /// <returns>A string representation of the total number of lights that are on after processing all instructions.</returns>
     public static string SolvePart1(string[] input)
     {
-        TimerExtension.Start();
         foreach (var line in input)
         {
             // Parse the instruction line to get the command and coordinates
@@ -90,7 +89,6 @@ public class Day6
     /// <returns>A string representation of the total brightness of all lights after processing all instructions.</returns>
     public static string SolvePart2(string[] input)
     {
-        TimerExtension.Start();
         foreach (var line in input)
         {
             // Parse the instruction line to get the command and coordinates

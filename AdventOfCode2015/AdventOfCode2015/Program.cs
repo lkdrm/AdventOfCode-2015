@@ -30,9 +30,15 @@ for (int i = 0; i < days.Length; i++)
         ? ReadTaskExtensions.ReadTextLines(FileName, Day)
         : [ReadTaskExtensions.ReadText(FileName, Day)];
 
+    TimerExtension.Start();
+    string answerPart1 = Part1(input);
     double elapsedPart1 = TimerExtension.StopAndGetSeconds();
+    
+    TimerExtension.Start();
+    string answerPart2 = Part2(input);
     double elapsedPart2 = TimerExtension.StopAndGetSeconds();
-    PrettyPrintExtensions.PrintResult(Title, Day, Part1(input), Part2(input), elapsedPart1, elapsedPart2);
+    
+    PrettyPrintExtensions.PrintResult(Title, Day, answerPart1, answerPart2, elapsedPart1, elapsedPart2);
 }
 
 Console.ReadLine();

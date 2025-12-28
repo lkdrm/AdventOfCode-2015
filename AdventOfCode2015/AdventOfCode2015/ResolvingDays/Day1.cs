@@ -15,7 +15,6 @@ public static class Day1
     /// <returns>A string representation of the resulting floor number after processing the input sequence.</returns>
     public static string SolvePart1(string input)
     {
-        TimerExtension.Start();
         int floor = 0;
         foreach (char c in input)
         {
@@ -39,7 +38,6 @@ public static class Day1
     /// <returns>A string representation of the resulting floor number after processing the input sequence.</returns>
     public static string SolvePart2(string input)
     {
-        TimerExtension.Start();
         int floor = 0;
         int position = 0;
         foreach (char c in input)

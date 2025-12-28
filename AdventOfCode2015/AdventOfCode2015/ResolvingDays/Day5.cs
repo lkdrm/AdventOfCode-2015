@@ -25,7 +25,6 @@ public static class Day5
     /// <returns>A string representation of the number of input lines that satisfy all the required conditions.</returns>
     public static string SolvePart1(string[] input)
     {
-        TimerExtension.Start();
         int result = 0;
         foreach (var line in input)
         {
@@ -62,7 +61,6 @@ public static class Day5
     /// <returns>A string representation of the number of input strings that satisfy both pattern conditions.</returns>
     public static string SolvePart2(string[] input)
     {
-        TimerExtension.Start();
         int result = 0;
         foreach (var line in input)
         {

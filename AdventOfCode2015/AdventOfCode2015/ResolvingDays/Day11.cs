@@ -16,7 +16,6 @@ public static class Day11
     /// <returns>A string representing the next valid password that satisfies all required criteria.</returns>
     public static string SolvePart1(string input)
     {
-        TimerExtension.Start();
         var result = FindNextValidPassword(input.Trim());
         _resultFromPart1 = result;
         return result;
@@ -30,7 +29,6 @@ public static class Day11
     /// <returns>A string containing the next valid password that satisfies all criteria for part 2.</returns>
     public static string SolvePart2(string input)
     {
-        TimerExtension.Start();
         var result = FindNextValidPassword(_resultFromPart1);
         return result;
     }
