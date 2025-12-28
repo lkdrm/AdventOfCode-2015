@@ -17,7 +17,6 @@ public static class Day8
     /// characters in memory for the provided string literals.</returns>
     public static string SolvePart1(string[] input)
     {
-        TimerExtension.Start();
         int totalMemoryLength = 0;
         int totalCodeLength = 0;
         foreach (var line in input)
@@ -38,7 +37,6 @@ public static class Day8
     /// input strings.</returns>
     public static string SolvePart2(string[] input)
     {
-        TimerExtension.Start();
         int totalEncodedLength = 0;
         int totalCodeLength = 0;
         foreach (var line in input)

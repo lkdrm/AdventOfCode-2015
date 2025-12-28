@@ -20,7 +20,6 @@ public static class Day4
     /// <returns>A string representation of the smallest positive integer that satisfies the hash prefix condition.</returns>
     public static string SolvePart1(string input)
     {
-        TimerExtension.Start();
         int secretKey = 1;
         while (true)
         {
@@ -51,7 +50,6 @@ public static class Day4
     /// <returns>A string representation of the smallest positive integer that satisfies the hash prefix condition.</returns>
     public static string SolvePart2(string input)
     {
-        TimerExtension.Start();
         int secretKey = 1;
         while (true)
         {

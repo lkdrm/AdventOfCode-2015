@@ -10,22 +10,14 @@ public static class TimerExtension
     private static readonly Stopwatch Stopwatch = new();
 
     /// <summary>
-    /// Gets the total elapsed time, in seconds, since the timer started.
-    /// </summary>
-    public static double ElapsedSeconds => Stopwatch.Elapsed.TotalSeconds;
-
-    /// <summary>
     /// Starts or restarts the timer, resetting the elapsed time to zero.
     /// </summary>
     public static void Start() => Stopwatch.Restart();
 
     /// <summary>
-    /// Stops the timer and returns the total elapsed time in seconds.
+    /// Stops the underlying stopwatch and returns the total elapsed time in seconds.
     /// </summary>
-    /// <returns>The total number of seconds that have elapsed since the timer was started.</returns>
-    public static double StopAndGetSeconds()
-    {
-        Stopwatch.Stop();
-        return ElapsedSeconds;
-    }
+    /// <returns>The total number of seconds that have elapsed since the stopwatch was started, including fractional seconds.</returns>
+    public static double StopAndGetSeconds() => Stopwatch.Elapsed.TotalSeconds;
+
 }

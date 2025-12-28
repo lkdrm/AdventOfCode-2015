@@ -19,7 +19,6 @@ public static class Day7
     /// <returns>A string representation of the computed signal value for wire 'a'.</returns>
     public static string SolvePart1(string[] input)
     {
-        TimerExtension.Start();
         foreach (var line in input)
         {
             ParseAttributeValues(line);
@@ -35,7 +34,6 @@ public static class Day7
     /// <returns>A string representation of the signal value for wire 'a' after applying the modified instructions for part 2.</returns>
     public static string SolvePart2(string[] input)
     {
-        TimerExtension.Start();
         var b = SolvePart1(input);
         _instructions["b"] = b;
         _cache.Clear();

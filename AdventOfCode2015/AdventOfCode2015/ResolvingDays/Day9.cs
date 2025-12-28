@@ -19,7 +19,6 @@ public static class Day9
     /// <returns>A string representation of the minimum total distance required to traverse all cities in a single route.</returns>
     public static string SolvePart1(string[] input)
     {
-        TimerExtension.Start();
         foreach (var line in input)
         {
             ParseAttributeValues(line);
@@ -50,8 +49,6 @@ public static class Day9
     /// <returns>A string containing the maximum route distance found among all possible city permutations.</returns>
     public static string SolvePart2(string[] input)
     {
-        TimerExtension.Start();
-        
         var citiList = _cities.ToList();
         var allPermutations = GetPermutations(citiList);
 
