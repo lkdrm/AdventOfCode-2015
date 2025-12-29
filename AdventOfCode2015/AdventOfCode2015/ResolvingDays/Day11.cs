@@ -1,6 +1,4 @@
-﻿using AdventOfCode2015.Tools;
-
-namespace AdventOfCode2015.ResolvingDays;
+﻿namespace AdventOfCode2015.ResolvingDays;
 
 /// <summary>
 /// Provides solutions for Day 11 of the coding challenge.
@@ -27,11 +25,7 @@ public static class Day11
     /// <param name="input">The input string representing the initial password or puzzle data. This parameter is not used in this method but
     /// is required to match the expected method signature.</param>
     /// <returns>A string containing the next valid password that satisfies all criteria for part 2.</returns>
-    public static string SolvePart2(string input)
-    {
-        var result = FindNextValidPassword(_resultFromPart1);
-        return result;
-    }
+    public static string SolvePart2(string input) => FindNextValidPassword(_resultFromPart1);
 
     /// <summary>
     /// Finds the next password that meets all validity requirements, starting from the specified password.

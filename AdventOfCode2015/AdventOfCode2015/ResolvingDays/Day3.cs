@@ -1,6 +1,4 @@
-﻿using AdventOfCode2015.Tools;
-
-namespace AdventOfCode2015.ResolvingDays;
+﻿namespace AdventOfCode2015.ResolvingDays;
 
 /// <summary>
 /// Provides solutions for Day 3 of the coding challenge.
@@ -33,9 +31,7 @@ public static class Day3
         _currentSantaPosition = new Position(0, 0);
         _visitedHouses = new HashSet<Position> { _currentSantaPosition };
 
-        var result = ProcessDeliveryRoute(input);
-
-        return result.ToString();
+        return ProcessDeliveryRoute(input).ToString();
     }
 
     /// <summary>
