@@ -1,5 +1,4 @@
-﻿using AdventOfCode2015.Tools;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
 
 namespace AdventOfCode2015.ResolvingDays;
@@ -55,7 +54,7 @@ public static class Day4
         {
             string inputWithSecretKey = input + secretKey.ToString();
             string md5Hash = ComputeMd5Hash(inputWithSecretKey);
-            
+
             if (md5Hash.StartsWith(Part2Md5HashPrefix))
             {
                 break;

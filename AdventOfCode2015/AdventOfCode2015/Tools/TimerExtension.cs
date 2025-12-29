@@ -19,5 +19,4 @@ public static class TimerExtension
     /// </summary>
     /// <returns>The total number of seconds that have elapsed since the stopwatch was started, including fractional seconds.</returns>
     public static double StopAndGetSeconds() => Stopwatch.Elapsed.TotalSeconds;
-
 }

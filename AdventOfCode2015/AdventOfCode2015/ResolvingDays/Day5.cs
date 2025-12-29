@@ -1,6 +1,4 @@
-﻿using AdventOfCode2015.Tools;
-
-namespace AdventOfCode2015.ResolvingDays;
+﻿namespace AdventOfCode2015.ResolvingDays;
 
 /// <summary>
 /// Provides solutions for Day 5 of the coding challenge.
@@ -33,7 +31,7 @@ public static class Day5
             {
                 continue;
             }
-            
+
             int vowelCount = _vowelsSubStrings.Sum(vowel => line.Count(c => c.ToString() == vowel));
             // Check for at least 3 vowels
             if (vowelCount < 3)
@@ -66,7 +64,7 @@ public static class Day5
         {
             bool hasTwicePairs = false;
             bool hasLetterBetwen = false;
-            
+
             string pair = string.Empty;
 
             // Check for a pair of any two letters that appears at least twice in the string without overlapping

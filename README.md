@@ -198,6 +198,24 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 
 ---
 
+### 📊 [Day 12: JSAbacusFramework.io](AdventOfCode2015/AdventOfCode2015/Tasks/Day12/Day12_Visual_Guide.md)
+**Problem:** Extract and sum numbers from JSON, with conditional filtering
+- JSON structure understanding (objects vs arrays)
+- Recursive tree traversal
+- Number extraction with regex and JSON parsing
+- Conditional filtering based on property values
+
+**Key Concepts:**
+- JSON parsing and traversal
+- Recursive algorithms
+- Regular expressions
+- Conditional filtering
+- Object vs array handling
+
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day12_Step_by_Step_Solution.md)**
+
+---
+
 ## 🎯 How to Use These Guides
 
 ### For Beginners
@@ -246,29 +264,33 @@ Each step-by-step guide includes:
 - **Dictionary**: Days 7, 9
 - **Coordinate Systems**: Day 3
 - **StringBuilder**: Day 10
+- **JSON/Tree Structures**: Day 12
 
 ### Algorithms
 - **Sequential Processing**: Days 1, 5, 8, 10, 11
 - **Grid Navigation**: Days 3, 6
 - **Brute Force Search**: Days 4, 9, 11
-- **Pattern Matching**: Days 5, 8, 10, 11
+- **Pattern Matching**: Days 5, 8, 10, 11, 12
 - **Range Operations**: Day 6
 - **Recursion with Memoization**: Day 7
+- **Recursive Traversal**: Days 7, 12
 - **Dependency Resolution**: Day 7
 - **Backtracking**: Day 9
 - **Permutation Generation**: Day 9
 - **Run-Length Encoding**: Day 10
 - **Base-N Counting**: Day 11
+- **Tree Traversal**: Day 12
 
 ### Problem Types
 - **Simulation**: Days 3, 6, 7
-- **Parsing**: Days 1, 2, 5, 6, 7, 8, 9, 10, 11
+- **Parsing**: Days 1, 2, 5, 6, 7, 8, 9, 10, 11, 12
 - **Validation**: Days 5, 11
 - **Optimization**: Days 4, 7, 9, 11
 - **State Management**: Days 6, 7
 - **String Processing**: Days 5, 8, 10, 11
 - **Graph Problems**: Day 9
 - **Sequence Generation**: Days 10, 11
+- **JSON/Data Processing**: Day 12
 
 ---
 
@@ -286,6 +308,7 @@ Each step-by-step guide includes:
 - **Day 9**: Permutation generation and TSP
 - **Day 10**: Look-and-say sequence generation
 - **Day 11**: Password validation with multiple rules
+- **Day 12**: JSON parsing and recursive traversal
 
 ### Challenging (★★★)
 - **Day 4**: Computational search with hashing
@@ -309,13 +332,13 @@ Master spatial reasoning and coordinate systems.
 
 ### Path 3: Data Structure Usage
 ```
-Day 1 (Variables) → Day 3 (HashSet) → Day 6 (2D Array) → Day 7 (Dictionary) → Day 9 (Complex Maps) → Day 10 (StringBuilder)
+Day 1 (Variables) → Day 3 (HashSet) → Day 6 (2D Array) → Day 7 (Dictionary) → Day 9 (Complex Maps) → Day 10 (StringBuilder) → Day 12 (JSON)
 ```
 Understand when and how to use different data structures.
 
 ### Path 4: Advanced Algorithms
 ```
-Day 4 (Brute Force) → Day 7 (Recursion + Memoization) → Day 9 (Backtracking) → Day 11 (Optimization)
+Day 4 (Brute Force) → Day 7 (Recursion + Memoization) → Day 9 (Backtracking) → Day 11 (Optimization) → Day 12 (Tree Traversal)
 ```
 Learn optimization techniques for complex problems.
 
@@ -327,7 +350,7 @@ Master string parsing and character-level operations.
 
 ### Path 6: Classic Problems
 ```
-Day 7 (Circuit Simulation) → Day 9 (Traveling Salesman) → Day 10 (Look-and-Say) → Day 11 (Password Generation)
+Day 7 (Circuit Simulation) → Day 9 (Traveling Salesman) → Day 10 (Look-and-Say) → Day 11 (Password Generation) → Day 12 (JSON Parsing)
 ```
 Explore famous computer science problems.
 
@@ -358,6 +381,8 @@ These guides use **C#** for code examples, but concepts apply to:
 - ✓ Backtracking
 - ✓ Permutations
 - ✓ StringBuilder optimization
+- ✓ JSON parsing and traversal
+- ✓ Regular expressions
 
 ---
 
@@ -406,10 +431,14 @@ AdventOfCode2015/
 │   │   ├── Day10_Visual_Guide.md
 │   │   ├── Day 10 Elves Look Elves Say.md
 │   │   └── Day10.txt
-│   └── Day11/
-│       ├── Day11_Visual_Guide.md
-│       ├── Day 11 Corporate Policy.md
-│       └── Day11.txt
+│   ├── Day11/
+│   │   ├── Day11_Visual_Guide.md
+│   │   ├── Day 11 Corporate Policy.md
+│   │   └── Day11.txt
+│   └── Day12/
+│       ├── Day12_Visual_Guide.md
+│       ├── Day 12 JSAbacusFrameworkIo.md
+│       └── Day12.txt
 ├── Step_by_step/
 │   ├── Day1_Step_by_Step_Solution.md
 │   ├── Day2_Step_by_Step_Solution.md
@@ -421,7 +450,8 @@ AdventOfCode2015/
 │   ├── Day8_Step_by_Step_Solution.md
 │   ├── Day9_Step_by_Step_Solution.md
 │   ├── Day10_Step_by_Step_Solution.md
-│   └── Day11_Step_by_Step_Solution.md
+│   ├── Day11_Step_by_Step_Solution.md
+│   └── Day12_Step_by_Step_Solution.md
 ├── ResolvingDays/
 │    ├── Day1.cs
 │    ├── Day2.cs
@@ -433,7 +463,8 @@ AdventOfCode2015/
 │    ├── Day8.cs
 │    ├── Day9.cs
 │    ├── Day10.cs
-│    └── Day11.cs
+│    ├── Day11.cs
+│    └── Day12.cs
 └── README.md (this file)
 ```
 
@@ -488,6 +519,22 @@ Each visual guide includes:
 ---
 
 ## 📜 Version History
+
+- **v2.1** - Added Day 12: JSAbacusFramework.io
+  - Created comprehensive Visual Guide for Day 12
+    - JSON structure explanation (objects vs arrays)
+    - Number extraction with regex (Part 1)
+    - Recursive tree traversal (Part 2)
+    - Conditional filtering based on "red" values
+    - Detailed examples and edge cases
+  - Created Step by Step Solution Guide for Day 12
+    - Regex approach for simple number extraction
+    - JSON parsing with System.Text.Json
+    - Recursive traversal implementation
+    - "red" filtering logic
+    - Complete working code with traces
+  - Updated README.md with Day 12 information
+  - Enhanced learning paths and topic organization
 
 - **v2.0** - Major Update: Complete Step by Step Solution Guides
   - Created comprehensive Step by Step guides for all 11 days

@@ -1,5 +1,4 @@
-﻿using AdventOfCode2015.Tools;
-using System.Text;
+﻿using System.Text;
 
 namespace AdventOfCode2015.ResolvingDays;
 
@@ -17,11 +16,7 @@ public static class Day10
     /// </summary>
     /// <param name="input">The initial sequence to process. Cannot be null.</param>
     /// <returns>A string representation of the length of the final sequence after processing.</returns>
-    public static string SolvePart1(string input)
-    {
-        string result = GenerateLookAndSay(input, DefaultIterationsPart1);
-        return result.Length.ToString();
-    }
+    public static string SolvePart1(string input) => GenerateLookAndSay(input, DefaultIterationsPart1).Length.ToString();
 
     /// <summary>
     /// Processes the input string using the look-and-say sequence for the number of iterations specified for part 2 and
@@ -30,11 +25,7 @@ public static class Day10
     /// <param name="input">The initial sequence to process using the look-and-say algorithm. Cannot be null.</param>
     /// <returns>A string representation of the length of the final sequence after applying the look-and-say algorithm for the
     /// required number of iterations.</returns>
-    public static string SolvePart2(string input)
-    {
-        string result = GenerateLookAndSay(input, DefaultIterationsPart2);
-        return result.Length.ToString();
-    }
+    public static string SolvePart2(string input) => GenerateLookAndSay(input, DefaultIterationsPart2).Length.ToString();
 
     /// <summary>
     /// Generates the result of applying the look-and-say sequence to the specified input for a given number of

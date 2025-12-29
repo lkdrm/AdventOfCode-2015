@@ -14,6 +14,9 @@
     <None Update="Step_by_step\Day11_Step_by_Step_Solution.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Step_by_step\Day12_Step_by_Step_Solution.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Step_by_step\Day1_Step_by_Step_Solution.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -57,6 +60,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day11\Day11_Visual_Guide.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day12\Day 12 JSAbacusFrameworkIo.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day12\Day12.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day12\Day12_Visual_Guide.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day1\Day 1 Not Quite Lisp.md">

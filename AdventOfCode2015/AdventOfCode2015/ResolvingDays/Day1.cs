@@ -1,6 +1,4 @@
-﻿using AdventOfCode2015.Tools;
-
-namespace AdventOfCode2015.ResolvingDays;
+﻿namespace AdventOfCode2015.ResolvingDays;
 
 /// <summary>
 /// This class is used to solve the first day of the Advent of Code 2015 challenge.

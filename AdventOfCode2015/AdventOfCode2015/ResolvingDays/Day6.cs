@@ -1,5 +1,4 @@
-﻿using AdventOfCode2015.Tools;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace AdventOfCode2015.ResolvingDays;
 
@@ -63,18 +62,13 @@ public class Day6
             {
                 for (int x = x1; x <= x2; x++)
                 {
-                    switch (lightsCommand)
+                    _ = lightsCommand switch
                     {
-                        case LightsCommand.TurnOn:
-                            _gridLightsPart[y, x] = true;
-                            break;
-                        case LightsCommand.TurnOff:
-                            _gridLightsPart[y, x] = false;
-                            break;
-                        case LightsCommand.Toggle:
-                            _gridLightsPart[y, x] = !_gridLightsPart[y, x];
-                            break;
-                    }
+                        LightsCommand.TurnOn => _gridLightsPart[y, x] = true,
+                        LightsCommand.TurnOff => _gridLightsPart[y, x] = false,
+                        LightsCommand.Toggle => _gridLightsPart[y, x] = !_gridLightsPart[y, x],
+                        _ => throw new NotImplementedException(),
+                    };
                 }
             }
         }
@@ -98,18 +92,13 @@ public class Day6
             {
                 for (int x = x1; x <= x2; x++)
                 {
-                    switch (lightsCommand)
+                    _ = lightsCommand switch
                     {
-                        case LightsCommand.TurnOn:
-                            _gridBrightness[y, x] += 1;
-                            break;
-                        case LightsCommand.TurnOff:
-                            _gridBrightness[y, x] = Math.Max(0, _gridBrightness[y, x] - 1);
-                            break;
-                        case LightsCommand.Toggle:
-                            _gridBrightness[y, x] += 2;
-                            break;
-                    }
+                        LightsCommand.TurnOn => _gridBrightness[y, x] += 1,
+                        LightsCommand.TurnOff => _gridBrightness[y, x] = Math.Max(0, _gridBrightness[y, x] - 1),
+                        LightsCommand.Toggle => _gridBrightness[y, x] += 2,
+                        _ => throw new NotImplementedException(),
+                    };
                 }
             }
         }

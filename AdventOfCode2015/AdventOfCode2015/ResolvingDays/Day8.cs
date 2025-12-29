@@ -1,6 +1,4 @@
-﻿using AdventOfCode2015.Tools;
-
-namespace AdventOfCode2015.ResolvingDays;
+﻿namespace AdventOfCode2015.ResolvingDays;
 
 /// <summary>
 /// Provides solutions for Day 8 of the coding challenge.
