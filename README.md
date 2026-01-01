@@ -216,6 +216,24 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 
 ---
 
+### 🍽️ [Day 13: Knights of the Dinner Table](AdventOfCode2015/AdventOfCode2015/Tasks/Day13/Day13_Visual_Guide.md)
+**Problem:** Arrange people around a circular table to maximize happiness
+- Circular seating arrangement optimization
+- Bidirectional relationship handling
+- Permutation generation with backtracking
+- Circular table pair calculations
+
+**Key Concepts:**
+- Circular permutations
+- Brute force optimization
+- Bidirectional relationships
+- Graph optimization (TSP variant)
+- Factorial complexity
+
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day13_Step_by_Step_Solution.md)**
+
+---
+
 ## 🎯 How to Use These Guides
 
 ### For Beginners
@@ -261,36 +279,39 @@ Each step-by-step guide includes:
 - **Arrays/Strings**: Days 1, 2, 5, 8, 10, 11
 - **2D Arrays**: Day 6
 - **HashSet**: Days 3, 9
-- **Dictionary**: Days 7, 9
+- **Dictionary**: Days 7, 9, 13
 - **Coordinate Systems**: Day 3
 - **StringBuilder**: Day 10
 - **JSON/Tree Structures**: Day 12
+- **Tuple Keys**: Day 13
 
 ### Algorithms
 - **Sequential Processing**: Days 1, 5, 8, 10, 11
 - **Grid Navigation**: Days 3, 6
-- **Brute Force Search**: Days 4, 9, 11
+- **Brute Force Search**: Days 4, 9, 11, 13
 - **Pattern Matching**: Days 5, 8, 10, 11, 12
 - **Range Operations**: Day 6
 - **Recursion with Memoization**: Day 7
 - **Recursive Traversal**: Days 7, 12
 - **Dependency Resolution**: Day 7
-- **Backtracking**: Day 9
-- **Permutation Generation**: Day 9
+- **Backtracking**: Days 9, 13
+- **Permutation Generation**: Days 9, 13
 - **Run-Length Encoding**: Day 10
 - **Base-N Counting**: Day 11
 - **Tree Traversal**: Day 12
+- **Circular Array Processing**: Day 13
 
 ### Problem Types
 - **Simulation**: Days 3, 6, 7
-- **Parsing**: Days 1, 2, 5, 6, 7, 8, 9, 10, 11, 12
+- **Parsing**: Days 1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13
 - **Validation**: Days 5, 11
-- **Optimization**: Days 4, 7, 9, 11
+- **Optimization**: Days 4, 7, 9, 11, 13
 - **State Management**: Days 6, 7
 - **String Processing**: Days 5, 8, 10, 11
-- **Graph Problems**: Day 9
+- **Graph Problems**: Days 9, 13
 - **Sequence Generation**: Days 10, 11
 - **JSON/Data Processing**: Day 12
+- **Combinatorial Optimization**: Days 9, 13
 
 ---
 
@@ -309,6 +330,7 @@ Each step-by-step guide includes:
 - **Day 10**: Look-and-say sequence generation
 - **Day 11**: Password validation with multiple rules
 - **Day 12**: JSON parsing and recursive traversal
+- **Day 13**: Circular seating optimization with permutations
 
 ### Challenging (★★★)
 - **Day 4**: Computational search with hashing
@@ -338,7 +360,7 @@ Understand when and how to use different data structures.
 
 ### Path 4: Advanced Algorithms
 ```
-Day 4 (Brute Force) → Day 7 (Recursion + Memoization) → Day 9 (Backtracking) → Day 11 (Optimization) → Day 12 (Tree Traversal)
+Day 4 (Brute Force) → Day 7 (Recursion + Memoization) → Day 9 (Backtracking) → Day 11 (Optimization) → Day 12 (Tree Traversal) → Day 13 (Circular Permutations)
 ```
 Learn optimization techniques for complex problems.
 
@@ -350,7 +372,7 @@ Master string parsing and character-level operations.
 
 ### Path 6: Classic Problems
 ```
-Day 7 (Circuit Simulation) → Day 9 (Traveling Salesman) → Day 10 (Look-and-Say) → Day 11 (Password Generation) → Day 12 (JSON Parsing)
+Day 7 (Circuit Simulation) → Day 9 (Traveling Salesman) → Day 10 (Look-and-Say) → Day 11 (Password Generation) → Day 12 (JSON Parsing) → Day 13 (Seating Optimization)
 ```
 Explore famous computer science problems.
 
@@ -435,10 +457,14 @@ AdventOfCode2015/
 │   │   ├── Day11_Visual_Guide.md
 │   │   ├── Day 11 Corporate Policy.md
 │   │   └── Day11.txt
-│   └── Day12/
-│       ├── Day12_Visual_Guide.md
-│       ├── Day 12 JSAbacusFrameworkIo.md
-│       └── Day12.txt
+│   ├── Day12/
+│   │   ├── Day12_Visual_Guide.md
+│   │   ├── Day 12 JSAbacusFrameworkIo.md
+│   │   └── Day12.txt
+│   └── Day13/
+│       ├── Day13_Visual_Guide.md
+│       ├── Day 13 Knights of the Dinner Table.md
+│       └── Day13.txt
 ├── Step_by_step/
 │   ├── Day1_Step_by_Step_Solution.md
 │   ├── Day2_Step_by_Step_Solution.md
@@ -451,7 +477,8 @@ AdventOfCode2015/
 │   ├── Day9_Step_by_Step_Solution.md
 │   ├── Day10_Step_by_Step_Solution.md
 │   ├── Day11_Step_by_Step_Solution.md
-│   └── Day12_Step_by_Step_Solution.md
+│   ├── Day12_Step_by_Step_Solution.md
+│   └── Day13_Step_by_Step_Solution.md
 ├── ResolvingDays/
 │    ├── Day1.cs
 │    ├── Day2.cs
@@ -464,7 +491,8 @@ AdventOfCode2015/
 │    ├── Day9.cs
 │    ├── Day10.cs
 │    ├── Day11.cs
-│    └── Day12.cs
+│    ├── Day12.cs
+│    └── Day13.cs
 └── README.md (this file)
 ```
 
@@ -519,6 +547,22 @@ Each visual guide includes:
 ---
 
 ## 📜 Version History
+
+- **v2.2** - Added Day 13: Knights of the Dinner Table
+  - Created comprehensive Visual Guide for Day 13
+    - Circular seating arrangement optimization explained
+    - Bidirectional relationship handling
+    - Permutation generation with rotation avoidance
+    - Detailed pair calculation examples
+    - Part 2: Adding neutral "Me" to the table
+  - Created Step by Step Solution Guide for Day 13
+    - Input parsing for happiness relationships
+    - Recursive permutation generation
+    - Circular happiness calculation
+    - Complete working implementation
+    - Common mistakes and edge cases
+  - Updated README.md with Day 13 information
+  - Enhanced learning paths and topic organization
 
 - **v2.1** - Added Day 12: JSAbacusFramework.io
   - Created comprehensive Visual Guide for Day 12
