@@ -21,7 +21,8 @@ var days = new (int Day, string Title, string FileName, bool UseLines, Func<stri
     (9, "All in a Single Night", "Day9.txt", true, Day9.SolvePart1, Day9.SolvePart2),
     (10, "Elves Look, Elves Say", "Day10.txt", false, input => Day10.SolvePart1(input[0]), input => Day10.SolvePart2(input[0])),
     (11, "Corporate Policy", "Day11.txt", false, input => Day11.SolvePart1(input[0]), input => Day11.SolvePart2(input[0])),
-    (12, "JSAbacusFramework.io", "Day12.txt", false, input => Day12.SolvePart1(input[0]), input => Day12.SolvePart2(input[0]))
+    (12, "JSAbacusFramework.io", "Day12.txt", false, input => Day12.SolvePart1(input[0]), input => Day12.SolvePart2(input[0])),
+    (13, "Knights of the Dinner Table", "Day13.txt", true, Day13.SolvePart1, Day13.SolvePart2)
 };
 
 for (int i = 0; i < days.Length; i++)
@@ -34,11 +35,11 @@ for (int i = 0; i < days.Length; i++)
     TimerExtension.Start();
     string answerPart1 = Part1(input);
     double elapsedPart1 = TimerExtension.StopAndGetSeconds();
-    
+
     TimerExtension.Start();
     string answerPart2 = Part2(input);
     double elapsedPart2 = TimerExtension.StopAndGetSeconds();
-    
+
     PrettyPrintExtensions.PrintResult(Title, Day, answerPart1, answerPart2, elapsedPart1, elapsedPart2);
 }
 

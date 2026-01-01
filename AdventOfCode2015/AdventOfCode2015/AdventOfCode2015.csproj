@@ -17,6 +17,9 @@
     <None Update="Step_by_step\Day12_Step_by_Step_Solution.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Step_by_step\Day13_Step_by_Step_Solution.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Step_by_step\Day1_Step_by_Step_Solution.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -69,6 +72,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day12\Day12_Visual_Guide.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day13\Day 13 Knights of the Dinner Table.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day13\Day13.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day13\Day13_Visual_Guide.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day1\Day 1 Not Quite Lisp.md">
@@ -163,6 +175,7 @@
     <Folder Include="Tasks\Day6\" />
     <Folder Include="Tasks\Day8\" />
     <Folder Include="Tasks\Day10\" />
+    <Folder Include="Tasks\Day13\" />
   </ItemGroup>
 
 </Project>
