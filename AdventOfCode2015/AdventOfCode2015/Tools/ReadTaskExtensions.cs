@@ -15,7 +15,7 @@ public static class ReadTaskExtensions
     /// <summary>
     /// This method gets the current directory of the assembly.
     /// </summary>
-    private static readonly string CurrentDirectory = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
+    public static readonly string CurrentDirectory = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
 
     /// <summary>
     /// This method reads the input file and returns the lines as an array of strings.

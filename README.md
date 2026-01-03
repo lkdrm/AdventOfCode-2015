@@ -4,6 +4,23 @@ Welcome to the comprehensive visual guide collection for Advent of Code 2015! Ea
 
 ---
 
+## 🚀 Quick Start
+
+### Running the Solutions
+1. Clone or download the repository
+2. Open the solution in Visual Studio or your preferred IDE
+3. Run the `Program.cs` - it will automatically:
+   - Execute all solved days sequentially
+   - Display results in the console with timing information
+   - **Export results to `ResultOfTasks.md`** in a formatted table
+
+### Automated Results Export
+The program now includes a **MarkdownExporter** tool that automatically saves all puzzle results to a Markdown file after execution. This creates a convenient reference of all your solutions with formatted tables for each day.
+
+**Output file location:** `ResultOfTasks.md` (in the build output directory)
+
+---
+
 ## 📖 Available Visual Guides
 
 ### 🏢 [Day 1: Not Quite Lisp](AdventOfCode2015/AdventOfCode2015/Tasks/Day1/Day1_Visual_Guide.md)
@@ -411,11 +428,18 @@ Learn to manage state and simulate complex systems.
 
 ### Languages
 These guides use **C#** for code examples, but concepts apply to:
-- C# (.NET 6+)
+- C# (.NET 10+)
 - Java
 - Python
 - JavaScript/TypeScript
 - Any modern programming language
+
+### Project Features
+- ✓ Automated solution execution for all days
+- ✓ Performance timing for each puzzle part
+- ✓ **Automatic Markdown export** of results
+- ✓ Console-based UI with colored output
+- ✓ Modular architecture with separate day implementations
 
 ### Concepts Covered
 - ✓ Variables and basic types
@@ -441,6 +465,11 @@ These guides use **C#** for code examples, but concepts apply to:
 
 ```
 AdventOfCode2015/
+├── Tools/
+│   ├── MarkdownExporter.cs        # Exports results to Markdown tables
+│   ├── ReadTaskExtensions.cs      # File reading utilities
+│   ├── PrettyPrintExtensions.cs   # Console output formatting
+│   └── TimerExtension.cs          # Performance timing
 ├── Tasks/
 │   ├── Day1/
 │   │   ├── Day1_Visual_Guide.md
@@ -529,6 +558,8 @@ AdventOfCode2015/
 │    ├── Day13.cs
 │    ├── Day14.cs
 │    └── Day14_ReindeerState.cs
+├── Program.cs                      # Main entry point - runs all solutions
+├── ResultOfTasks.md                # Auto-generated results (after running)
 └── README.md (this file)
 ```
 
@@ -583,6 +614,18 @@ Each visual guide includes:
 ---
 
 ## 📜 Version History
+
+- **v2.4** - Added Automated Results Export
+  - Created `MarkdownExporter` tool for exporting results
+    - Automatically generates formatted Markdown tables
+    - Exports all puzzle solutions to `ResultOfTasks.md`
+    - Clean, readable output format with day numbers and titles
+  - Enhanced `Program.cs` with automatic result collection
+    - Tracks all solutions as they're computed
+    - Exports results at the end of execution
+    - Displays output file path in console
+  - Updated README.md with Quick Start section
+  - Added Tools folder to file structure documentation
 
 - **v2.3** - Added Day 14: Reindeer Olympics
   - Created comprehensive Visual Guide for Day 14
