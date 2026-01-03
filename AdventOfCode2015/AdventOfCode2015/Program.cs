@@ -8,6 +8,10 @@ Console.ForegroundColor = legendDefault;
 PrettyPrintExtensions.PrintWelcome();
 #endregion
 
+#region Tasks-processing
+
+List<(int Day, string Title, string Part1Result, string Part2Result)> ResultOfDays = [];
+
 var days = new (int Day, string Title, string FileName, bool UseLines, Func<string[], string> Part1, Func<string[], string> Part2)[]
 {
     (1, "Not Quite Lisp", "Day1.txt", false, input => Day1.SolvePart1(input[0]), input => Day1.SolvePart2(input[0])),
@@ -42,10 +46,18 @@ for (int i = 0; i < days.Length; i++)
     double elapsedPart2 = TimerExtension.StopAndGetSeconds();
 
     PrettyPrintExtensions.PrintResult(Title, Day, answerPart1, answerPart2, elapsedPart1, elapsedPart2);
+    ResultOfDays.Add((Day, Title, answerPart1, answerPart2));
 }
+#endregion
 
-Console.ReadLine();
+#region Write and Save result to ResultOfTasks.md
+string outputPath = Path.Combine(ReadTaskExtensions.CurrentDirectory, "ResultOfTasks.md");
+MarkdownExporter.SaveResultToMarkdown(outputPath, ResultOfDays);
+Console.WriteLine($"\nResults save to: {outputPath}");
+#endregion
+
 #region End
+Console.ReadLine();
 Console.CancelKeyPress += (sender, e) =>
 {
     Console.ForegroundColor = legendDefault;
