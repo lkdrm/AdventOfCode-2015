@@ -269,6 +269,25 @@ The program now includes a **MarkdownExporter** tool that automatically saves al
 
 ---
 
+### 🍪 [Day 15: Science for Hungry People](AdventOfCode2015/AdventOfCode2015/Tasks/Day15/Day15_Visual_Guide.md)
+**Problem:** Find the optimal cookie recipe using exactly 100 teaspoons of ingredients
+- Understanding multi-property optimization
+- Generating all valid ingredient combinations
+- Handling negative property values
+- Constraint satisfaction (calorie requirement)
+- Multiplicative scoring system
+
+**Key Concepts:**
+- Combinatorial generation (stars and bars)
+- Constraint optimization
+- Brute force enumeration
+- Property calculation and aggregation
+- Negative value handling
+
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day15_Step_by_Step_Solution.md)**
+
+---
+
 ## 🎯 How to Use These Guides
 
 ### For Beginners
@@ -311,7 +330,7 @@ Each step-by-step guide includes:
 ## 🗂️ Guide Organization by Topic
 
 ### Data Structures
-- **Arrays/Strings**: Days 1, 2, 5, 8, 10, 11
+- **Arrays/Strings**: Days 1, 2, 5, 8, 10, 11, 15
 - **2D Arrays**: Day 6
 - **HashSet**: Days 3, 9
 - **Dictionary**: Days 7, 9, 13
@@ -320,18 +339,21 @@ Each step-by-step guide includes:
 - **JSON/Tree Structures**: Day 12
 - **Tuple Keys**: Day 13
 - **State Machines**: Day 14
+- **Lists and Collections**: Day 15
 
 ### Algorithms
 - **Sequential Processing**: Days 1, 5, 8, 10, 11
 - **Grid Navigation**: Days 3, 6
-- **Brute Force Search**: Days 4, 9, 11, 13
+- **Brute Force Search**: Days 4, 9, 11, 13, 15
 - **Pattern Matching**: Days 5, 8, 10, 11, 12
 - **Range Operations**: Day 6
 - **Recursion with Memoization**: Day 7
 - **Recursive Traversal**: Days 7, 12
+- **Recursive Generation**: Day 15
 - **Dependency Resolution**: Day 7
 - **Backtracking**: Days 9, 13
 - **Permutation Generation**: Days 9, 13
+- **Combinatorial Generation**: Day 15
 - **Run-Length Encoding**: Day 10
 - **Base-N Counting**: Day 11
 - **Tree Traversal**: Day 12
@@ -341,16 +363,17 @@ Each step-by-step guide includes:
 
 ### Problem Types
 - **Simulation**: Days 3, 6, 7, 14
-- **Parsing**: Days 1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+- **Parsing**: Days 1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
 - **Validation**: Days 5, 11
-- **Optimization**: Days 4, 7, 9, 11, 13, 14
+- **Optimization**: Days 4, 7, 9, 11, 13, 14, 15
 - **State Management**: Days 6, 7, 14
 - **String Processing**: Days 5, 8, 10, 11
 - **Graph Problems**: Days 9, 13
 - **Sequence Generation**: Days 10, 11
 - **JSON/Data Processing**: Day 12
-- **Combinatorial Optimization**: Days 9, 13
-- **Mathematical Formulas**: Day 14
+- **Combinatorial Optimization**: Days 9, 13, 15
+- **Mathematical Formulas**: Days 14, 15
+- **Constraint Satisfaction**: Day 15
 
 ---
 
@@ -371,6 +394,7 @@ Each step-by-step guide includes:
 - **Day 12**: JSON parsing and recursive traversal
 - **Day 13**: Circular seating optimization with permutations
 - **Day 14**: Reindeer race simulation and scoring
+- **Day 15**: Cookie recipe optimization with constraints
 
 ### Challenging (★★★)
 - **Day 4**: Computational search with hashing
@@ -400,7 +424,7 @@ Understand when and how to use different data structures.
 
 ### Path 4: Advanced Algorithms
 ```
-Day 4 (Brute Force) → Day 7 (Recursion + Memoization) → Day 9 (Backtracking) → Day 11 (Optimization) → Day 12 (Tree Traversal) → Day 13 (Circular Permutations) → Day 14 (Simulation)
+Day 4 (Brute Force) → Day 7 (Recursion + Memoization) → Day 9 (Backtracking) → Day 11 (Optimization) → Day 12 (Tree Traversal) → Day 13 (Circular Permutations) → Day 14 (Simulation) → Day 15 (Combinatorial Generation)
 ```
 Learn optimization techniques for complex problems.
 
@@ -412,13 +436,13 @@ Master string parsing and character-level operations.
 
 ### Path 6: Classic Problems
 ```
-Day 7 (Circuit Simulation) → Day 9 (Traveling Salesman) → Day 10 (Look-and-Say) → Day 11 (Password Generation) → Day 12 (JSON Parsing) → Day 13 (Seating Optimization) → Day 14 (Race Simulation)
+Day 7 (Circuit Simulation) → Day 9 (Traveling Salesman) → Day 10 (Look-and-Say) → Day 11 (Password Generation) → Day 12 (JSON Parsing) → Day 13 (Seating Optimization) → Day 14 (Race Simulation) → Day 15 (Recipe Optimization)
 ```
 Explore famous computer science problems.
 
 ### Path 7: Simulation and State Management
 ```
-Day 3 (Grid Navigation) → Day 6 (Light Grid) → Day 7 (Circuit) → Day 14 (Reindeer Race)
+Day 3 (Grid Navigation) → Day 6 (Light Grid) → Day 7 (Circuit) → Day 14 (Reindeer Race) → Day 15 (Cookie Recipe)
 ```
 Learn to manage state and simulate complex systems.
 
@@ -523,10 +547,14 @@ AdventOfCode2015/
 │   │   ├── Day13_Visual_Guide.md
 │   │   ├── Day 13 Knights of the Dinner Table.md
 │   │   └── Day13.txt
-│   └── Day14/
-│       ├── Day14_Visual_Guide.md
-│       ├── Day 14 Reindeer Olympics.md
-│       └── Day14.txt
+│   ├── Day14/
+│   │   ├── Day14_Visual_Guide.md
+│   │   ├── Day 14 Reindeer Olympics.md
+│   │   └── Day14.txt
+│   └── Day15/
+│       ├── Day15_Visual_Guide.md
+│       ├── Day 15 Science for Hungry People.md
+│       └── Day15.txt
 ├── Step_by_step/
 │   ├── Day1_Step_by_Step_Solution.md
 │   ├── Day2_Step_by_Step_Solution.md
@@ -541,7 +569,8 @@ AdventOfCode2015/
 │   ├── Day11_Step_by_Step_Solution.md
 │   ├── Day12_Step_by_Step_Solution.md
 │   ├── Day13_Step_by_Step_Solution.md
-│   └── Day14_Step_by_Step_Solution.md
+│   ├── Day14_Step_by_Step_Solution.md
+│   └── Day15_Step_by_Step_Solution.md
 ├── ResolvingDays/
 │    ├── Day1.cs
 │    ├── Day2.cs
@@ -557,7 +586,8 @@ AdventOfCode2015/
 │    ├── Day12.cs
 │    ├── Day13.cs
 │    ├── Day14.cs
-│    └── Day14_ReindeerState.cs
+│    ├── Day14_ReindeerState.cs
+│    └── Day15.cs
 ├── Program.cs                      # Main entry point - runs all solutions
 ├── ResultOfTasks.md                # Auto-generated results (after running)
 └── README.md (this file)
@@ -614,6 +644,23 @@ Each visual guide includes:
 ---
 
 ## 📜 Version History
+
+- **v2.5** - Added Day 15: Science for Hungry People
+  - Created comprehensive Visual Guide for Day 15
+    - Multi-property optimization explained
+    - Combinatorial generation (stars and bars)
+    - Recipe scoring with negative value handling
+    - Calorie constraint for Part 2
+    - Brute force enumeration strategy
+  - Created Step by Step Solution Guide for Day 15
+    - Input parsing for ingredient properties
+    - Recursive recipe generation
+    - Score calculation with clamping
+    - Calorie filtering for Part 2
+    - Complete working implementation
+    - Common mistakes and edge cases
+  - Updated README.md with Day 15 information
+  - Enhanced learning paths and topic organization
 
 - **v2.4** - Added Automated Results Export
   - Created `MarkdownExporter` tool for exporting results
