@@ -23,6 +23,9 @@
     <None Update="Step_by_step\Day14_Step_by_Step_Solution.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Step_by_step\Day15_Step_by_Step_Solution.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="Step_by_step\Day1_Step_by_Step_Solution.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -93,6 +96,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day14\Day14_Visual_Guide.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day15\Day 15 Science for Hungry People.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day15\Day15.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day15\Day15_Visual_Guide.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day1\Day 1 Not Quite Lisp.md">
