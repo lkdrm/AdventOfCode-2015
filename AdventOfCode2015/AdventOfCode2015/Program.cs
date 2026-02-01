@@ -28,7 +28,8 @@ var days = new (int Day, string Title, string FileName, bool UseLines, Func<stri
     (12, "JSAbacusFramework.io", "Day12.txt", false, input => Day12.SolvePart1(input[0]), input => Day12.SolvePart2(input[0])),
     (13, "Knights of the Dinner Table", "Day13.txt", true, Day13.SolvePart1, Day13.SolvePart2),
     (14, "Reindeer Olympics", "Day14.txt", true, Day14.SolvePart1, Day14.SolvePart2),
-    (15, "Science for Hungry People", "Day15.txt", true, Day15.SolvePart1, Day15.SolvePart2)
+    (15, "Science for Hungry People", "Day15.txt", true, Day15.SolvePart1, Day15.SolvePart2),
+    (16, "Aunt Sue", "Day16.txt", true, Day16.SolvePart1, Day16.SolvePart2)
 };
 
 for (int i = 0; i < days.Length; i++)

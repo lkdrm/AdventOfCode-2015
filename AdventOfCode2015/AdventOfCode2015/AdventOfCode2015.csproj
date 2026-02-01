@@ -5,6 +5,15 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <IncludeSymbols>False</IncludeSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <WarningLevel>6</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <WarningLevel>6</WarningLevel>
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,6 +33,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Step_by_step\Day15_Step_by_Step_Solution.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Step_by_step\Day16_Step_by_Step_Solution.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Step_by_step\Day1_Step_by_Step_Solution.md">
@@ -105,6 +117,15 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day15\Day15_Visual_Guide.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day16\Day 16 Aunt Sue.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day16\Day16.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Tasks\Day16\Day16_Visual_Guide.md">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Tasks\Day1\Day 1 Not Quite Lisp.md">
@@ -197,9 +218,16 @@
     <Folder Include="Tasks\Day4\" />
     <Folder Include="Tasks\Day5\" />
     <Folder Include="Tasks\Day6\" />
+    <Folder Include="Tasks\Day7\" />
     <Folder Include="Tasks\Day8\" />
+    <Folder Include="Tasks\Day9\" />
     <Folder Include="Tasks\Day10\" />
+    <Folder Include="Tasks\Day11\" />
+    <Folder Include="Tasks\Day12\" />
     <Folder Include="Tasks\Day13\" />
+    <Folder Include="Tasks\Day14\" />
+    <Folder Include="Tasks\Day15\" />
+    <Folder Include="Tasks\Day16\" />
   </ItemGroup>
 
 </Project>

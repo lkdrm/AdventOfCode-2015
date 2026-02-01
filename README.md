@@ -288,6 +288,25 @@ The program now includes a **MarkdownExporter** tool that automatically saves al
 
 ---
 
+### 🎁 [Day 16: Aunt Sue](AdventOfCode2015/AdventOfCode2015/Tasks/Day16/Day16_Visual_Guide.md)
+**Problem:** Identify which Aunt Sue sent you a gift based on MFCSAM analysis
+- Exact attribute matching (Part 1)
+- Range-based comparisons (Part 2)
+- Handling unknown/missing attributes
+- Pattern matching with partial information
+- Greater than and less than rules
+
+**Key Concepts:**
+- Dictionary/map lookups
+- Conditional comparison logic
+- Partial matching strategies
+- Linear search with early exit
+- Rule-based filtering
+
+**📝 [Step by Step Solution Guide](AdventOfCode2015/AdventOfCode2015/Step_by_step/Day16_Step_by_Step_Solution.md)**
+
+---
+
 ## 🎯 How to Use These Guides
 
 ### For Beginners
@@ -333,19 +352,19 @@ Each step-by-step guide includes:
 - **Arrays/Strings**: Days 1, 2, 5, 8, 10, 11, 15
 - **2D Arrays**: Day 6
 - **HashSet**: Days 3, 9
-- **Dictionary**: Days 7, 9, 13
+- **Dictionary**: Days 7, 9, 13, 16
 - **Coordinate Systems**: Day 3
 - **StringBuilder**: Day 10
 - **JSON/Tree Structures**: Day 12
 - **Tuple Keys**: Day 13
 - **State Machines**: Day 14
-- **Lists and Collections**: Day 15
+- **Lists and Collections**: Day 15, 16
 
 ### Algorithms
-- **Sequential Processing**: Days 1, 5, 8, 10, 11
+- **Sequential Processing**: Days 1, 5, 8, 10, 11, 16
 - **Grid Navigation**: Days 3, 6
 - **Brute Force Search**: Days 4, 9, 11, 13, 15
-- **Pattern Matching**: Days 5, 8, 10, 11, 12
+- **Pattern Matching**: Days 5, 8, 10, 11, 12, 16
 - **Range Operations**: Day 6
 - **Recursion with Memoization**: Day 7
 - **Recursive Traversal**: Days 7, 12
@@ -360,10 +379,12 @@ Each step-by-step guide includes:
 - **Circular Array Processing**: Day 13
 - **Cycle Detection**: Day 14
 - **Modulo Arithmetic**: Day 14
+- **Linear Search**: Day 16
+- **Early Exit Optimization**: Day 16
 
 ### Problem Types
 - **Simulation**: Days 3, 6, 7, 14
-- **Parsing**: Days 1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+- **Parsing**: Days 1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
 - **Validation**: Days 5, 11
 - **Optimization**: Days 4, 7, 9, 11, 13, 14, 15
 - **State Management**: Days 6, 7, 14
@@ -374,6 +395,9 @@ Each step-by-step guide includes:
 - **Combinatorial Optimization**: Days 9, 13, 15
 - **Mathematical Formulas**: Days 14, 15
 - **Constraint Satisfaction**: Day 15
+- **Pattern Matching**: Days 5, 16
+- **Filtering**: Day 16
+- **Exact and Range Matching**: Day 16
 
 ---
 
@@ -395,6 +419,7 @@ Each step-by-step guide includes:
 - **Day 13**: Circular seating optimization with permutations
 - **Day 14**: Reindeer race simulation and scoring
 - **Day 15**: Cookie recipe optimization with constraints
+- **Day 16**: Aunt Sue identification with partial matching
 
 ### Challenging (★★★)
 - **Day 4**: Computational search with hashing
@@ -406,7 +431,7 @@ Each step-by-step guide includes:
 
 ### Path 1: Sequential Processing
 ```
-Day 1 (Basics) → Day 5 (Patterns) → Day 8 (Escape Sequences) → Day 10 (Sequences) → Day 11 (Validation) → Day 4 (Search)
+Day 1 (Basics) → Day 5 (Patterns) → Day 8 (Escape Sequences) → Day 10 (Sequences) → Day 11 (Validation) → Day 16 (Matching) → Day 4 (Search)
 ```
 Learn to process input character-by-character with increasing complexity.
 
@@ -418,25 +443,25 @@ Master spatial reasoning and coordinate systems.
 
 ### Path 3: Data Structure Usage
 ```
-Day 1 (Variables) → Day 3 (HashSet) → Day 6 (2D Array) → Day 7 (Dictionary) → Day 9 (Complex Maps) → Day 10 (StringBuilder) → Day 12 (JSON)
+Day 1 (Variables) → Day 3 (HashSet) → Day 6 (2D Array) → Day 7 (Dictionary) → Day 9 (Complex Maps) → Day 10 (StringBuilder) → Day 12 (JSON) → Day 16 (Dictionary Lookups)
 ```
 Understand when and how to use different data structures.
 
 ### Path 4: Advanced Algorithms
 ```
-Day 4 (Brute Force) → Day 7 (Recursion + Memoization) → Day 9 (Backtracking) → Day 11 (Optimization) → Day 12 (Tree Traversal) → Day 13 (Circular Permutations) → Day 14 (Simulation) → Day 15 (Combinatorial Generation)
+Day 4 (Brute Force) → Day 7 (Recursion + Memoization) → Day 9 (Backtracking) → Day 11 (Optimization) → Day 12 (Tree Traversal) → Day 13 (Circular Permutations) → Day 14 (Simulation) → Day 15 (Combinatorial Generation) → Day 16 (Linear Search with Early Exit)
 ```
 Learn optimization techniques for complex problems.
 
 ### Path 5: String Manipulation
 ```
-Day 5 (Pattern Matching) → Day 8 (Escape Sequences) → Day 10 (Sequence Generation) → Day 11 (Validation)
+Day 5 (Pattern Matching) → Day 8 (Escape Sequences) → Day 10 (Sequence Generation) → Day 11 (Validation) → Day 16 (Parsing and Matching)
 ```
 Master string parsing and character-level operations.
 
 ### Path 6: Classic Problems
 ```
-Day 7 (Circuit Simulation) → Day 9 (Traveling Salesman) → Day 10 (Look-and-Say) → Day 11 (Password Generation) → Day 12 (JSON Parsing) → Day 13 (Seating Optimization) → Day 14 (Race Simulation) → Day 15 (Recipe Optimization)
+Day 7 (Circuit Simulation) → Day 9 (Traveling Salesman) → Day 10 (Look-and-Say) → Day 11 (Password Generation) → Day 12 (JSON Parsing) → Day 13 (Seating Optimization) → Day 14 (Race Simulation) → Day 15 (Recipe Optimization) → Day 16 (Detective Problem)
 ```
 Explore famous computer science problems.
 
@@ -551,10 +576,14 @@ AdventOfCode2015/
 │   │   ├── Day14_Visual_Guide.md
 │   │   ├── Day 14 Reindeer Olympics.md
 │   │   └── Day14.txt
-│   └── Day15/
-│       ├── Day15_Visual_Guide.md
-│       ├── Day 15 Science for Hungry People.md
-│       └── Day15.txt
+│   ├── Day15/
+│   │   ├── Day15_Visual_Guide.md
+│   │   ├── Day 15 Science for Hungry People.md
+│   │   └── Day15.txt
+│   └── Day16/
+│       ├── Day16_Visual_Guide.md
+│       ├── Day 16 Aunt Sue.md
+│       └── Day16.txt
 ├── Step_by_step/
 │   ├── Day1_Step_by_Step_Solution.md
 │   ├── Day2_Step_by_Step_Solution.md
@@ -570,7 +599,8 @@ AdventOfCode2015/
 │   ├── Day12_Step_by_Step_Solution.md
 │   ├── Day13_Step_by_Step_Solution.md
 │   ├── Day14_Step_by_Step_Solution.md
-│   └── Day15_Step_by_Step_Solution.md
+│   ├── Day15_Step_by_Step_Solution.md
+│   └── Day16_Step_by_Step_Solution.md
 ├── ResolvingDays/
 │    ├── Day1.cs
 │    ├── Day2.cs
@@ -587,7 +617,8 @@ AdventOfCode2015/
 │    ├── Day13.cs
 │    ├── Day14.cs
 │    ├── Day14_ReindeerState.cs
-│    └── Day15.cs
+│    ├── Day15.cs
+│    └── Day16.cs
 ├── Program.cs                      # Main entry point - runs all solutions
 ├── ResultOfTasks.md                # Auto-generated results (after running)
 └── README.md (this file)
@@ -644,6 +675,24 @@ Each visual guide includes:
 ---
 
 ## 📜 Version History
+
+- **v2.6** - Added Day 16: Aunt Sue
+  - Created comprehensive Visual Guide for Day 16
+    - MFCSAM analysis and target profile explanation
+    - Exact matching strategy (Part 1)
+    - Range-based comparison rules (Part 2)
+    - Greater than and fewer than logic
+    - Handling unknown/missing attributes
+    - Partial information matching
+  - Created Step by Step Solution Guide for Day 16
+    - Input parsing for Sue records
+    - Dictionary-based matching
+    - Part 1: Exact comparison implementation
+    - Part 2: Conditional comparison rules
+    - Complete working implementation
+    - Common mistakes and edge cases
+  - Updated README.md with Day 16 information
+  - Enhanced learning paths and topic organization
 
 - **v2.5** - Added Day 15: Science for Hungry People
   - Created comprehensive Visual Guide for Day 15
